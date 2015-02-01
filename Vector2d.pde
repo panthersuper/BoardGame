@@ -27,5 +27,19 @@ class Vector2d {
     
   }
   
+  String toString(){
+   return "["+this.x+","+this.y+"]" ;
+  }
+  
+  void draw(){
+    pushStyle();
+    fill(255,0,0);
+    stroke(255,0,0);
+    ellipse((float)x,(float)y,5,5);
+    
+    popStyle();
+    
+  }
+  
 }
 

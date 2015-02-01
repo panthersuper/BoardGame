@@ -26,12 +26,9 @@ class Grid {
     }
     for (int i = 0; i<=x; i++) {
       for (int j=0; j<=y; j++) {
-        vs[i][j] = new Vector2d(i, j);
+        vs[i][j] = new Vector2d(i*this.ww, j*this.hh);
       }
-    }  
-    
-    
-    
+    }
   }
 
 
@@ -50,10 +47,28 @@ class Grid {
     double my = pos.getY();
     int numX = (int) Math.floor(mx / ww);
     int numY = (int) Math.floor(my / hh);
-    int[] lst = new int[2];
+    if(numX>x-1)
+        return this.blos[x-1][numY];
+    else
+        return this.blos[numX][numY];
 
-    return this.blos[numX][numY];
   }
+
+  Vector2d onVertex(Vector2d pos) {
+    //choose the vertex that pos is on
+    
+    for (Vector2d[] vvs : vs) {
+      for (Vector2d v : vvs) {
+        if (v.disSQ(pos)<5*5) {
+          return v;
+        }
+      }
+    }
+    return null;
+  }
+
+
+
 
   void drawOn(Vector2d pos) {
     //draw the block which the pos is on
