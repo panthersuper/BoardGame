@@ -1,6 +1,6 @@
-
   Grid g;
   Blo b;
+  
   
    void setup(){
     size(500,500);
@@ -10,8 +10,7 @@
   
    void draw(){
     g.draw();
-    g.drawOn(mouseX, mouseY);
-    
+    g.onBlo(new Vector2d(mouseX, mouseY)).draw(0,0,0);
     
   }
   

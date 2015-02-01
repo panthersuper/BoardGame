@@ -25,8 +25,10 @@ class Grid {
   }
 
 
-  Blo onBlo(double mx, double my) {
-    // mouseX,mouseY
+  Blo onBlo(Vector2d pos) {
+    //return the block which the pos is on
+    double mx = pos.getX();
+    double my = pos.getY();
     int numX = (int) Math.floor(mx / ww);
     int numY = (int) Math.floor(my / hh);
     int[] lst = new int[2];
@@ -34,8 +36,9 @@ class Grid {
     return this.blos[numX][numY];
   }
 
-  void drawOn(double mx, double my) {
-    Blo b = onBlo(mx, my);
+  void drawOn(Vector2d pos) {
+    //draw the block which the pos is on
+    Blo b = onBlo(pos);
     
     b.draw();
   }
@@ -43,10 +46,9 @@ class Grid {
   void draw() {
 
     pushStyle();
-
     for (int i = 0; i < x; i++) {
       for (int j = 0; j < y; j++) {
-        rect((float) (i*ww), (float) (j*hh), (float) ww, (float) hh);
+        blos[i][j].draw();
       }
     }
     popStyle();
