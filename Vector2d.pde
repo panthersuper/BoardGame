@@ -19,5 +19,13 @@ class Vector2d {
   void setY(double y){
     this.y = y;
   }
+  double disSQ(Vector2d v){
+    return (this.x-v.x)*(this.x-v.x)+(this.y-v.y)*(this.y-v.y);
+  }
+  double dis(Vector2d v){
+   return sqrt((float)disSQ(v)); 
+    
+  }
+  
 }
 
