@@ -11,7 +11,7 @@
    void draw(){
     g.draw();
     g.drawOn(mouseX, mouseY);
-    println(g.onGrid(mouseX, mouseY)[0]+","+g.onGrid(mouseX, mouseY)[1]);
+    
     
   }
   

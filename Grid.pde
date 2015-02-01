@@ -15,26 +15,29 @@ class Grid {
     this.h = h;
     this.ww = w / x;
     this.hh = h / y;
+    blos = new Blo[x][y];
+
+      for(int i = 0; i<x; i++) {
+      for(int j=0; j<y; j++) {
+        blos[i][j] = new Blo(i, j, this.ww, this.hh);
+      }
+    }
   }
 
-  int[] onGrid(double mx, double my) {
+
+  Blo onBlo(double mx, double my) {
     // mouseX,mouseY
     int numX = (int) Math.floor(mx / ww);
     int numY = (int) Math.floor(my / hh);
     int[] lst = new int[2];
-    lst[0] = numX;
-    lst[1] = numY;
 
-    return lst;
+    return this.blos[numX][numY];
   }
 
   void drawOn(double mx, double my) {
-    int[] lst = onGrid(mx, my);
-
-    pushStyle();
-    fill(178);
-    rect((float) (lst[0]*ww), (float) (lst[1]*hh), (float) ww, (float) hh);
-    popStyle();
+    Blo b = onBlo(mx, my);
+    
+    b.draw();
   }
 
   void draw() {
@@ -46,7 +49,7 @@ class Grid {
         rect((float) (i*ww), (float) (j*hh), (float) ww, (float) hh);
       }
     }
-        popStyle();
-
+    popStyle();
   }
 }
+
