@@ -12,6 +12,10 @@ class PLine {
   void add(Vector2d v) {
     VList.add(v);
   }
+  
+  void clear(){
+   this.VList.clear(); 
+  }
 
   Vector2d getV(int i){
   return this.VList.get(i);    
