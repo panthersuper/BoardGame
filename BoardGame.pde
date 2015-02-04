@@ -3,20 +3,19 @@ Wenzhe Peng
  pwz@berkeley.edu
  */
 
-
-
-
 Grid g;
 Table table;
 int si = 40;//size for each grid
-PLine pl;
 
-Button reset;
+Button NextRoad;
 Button DrawRoad;
+Button NextBuilding;
 Button DrawBuilding;
 
-
-
+ArrayList<PLine> plist = new ArrayList();//road list
+PLine pl;//current drawing road
+ArrayList<Building> blist = new ArrayList();//building list
+Building building;//current drawing building
 
 
 void setup() {
@@ -29,17 +28,17 @@ void setup() {
   g = new Grid(row, col, si*row, si*col);
   g.setBloV(table);
 
-  reset = new Button(si*row+50, si*col-100, 100, 25, false, "RESET");
-  DrawRoad = new Button(si*row+50, si*col-150, 100, 25, true, "DRAWROAD");
-  DrawBuilding = new Button(si*row+50, si*col-200, 100, 25, true, "DRAWBUILDING");
+  NextRoad = new Button(si*row+50, si*col-50, 130, 25, false, "NEXTROAD");
+  DrawRoad = new Button(si*row+50, si*col-80, 130, 25, true, "DRAWROAD");
+  NextBuilding = new Button(si*row+50, si*col-110, 130, 25, false, "NEXTBUILDING");
+  DrawBuilding = new Button(si*row+50, si*col-140, 130, 25, true, "DRAWBUILDING");
   DrawRoad.setLink(DrawBuilding);
+
 
   size(si*row+200, si*col);
 
-
-
-
   pl = new PLine();
+  building = new Building();
 }
 
 void draw() {
@@ -58,7 +57,7 @@ void draw() {
     if (gv!=null) {
       gv.draw();
 
-      if (mousePressed) {
+      if (mousePressed && mouseButton ==LEFT) {
         if (pl.ready()) {
           if (gv.disSQ(pl.getV(pl.size()-1))<(this.si*2)*(this.si*2))
             pl.add(gv);
@@ -69,6 +68,24 @@ void draw() {
   }
 
 
+  if (mousePressed && mouseButton ==RIGHT) {
+    if (pl.ready()) {
+      pl.pop();
+    }
+  }
+
+
+  //draw roads
+  if (this.pl.ready()) {
+    pl.draw();
+  }
+
+  if (this.plist.size()>0) {
+    for (PLine ll : plist) {
+      ll.draw(0, 0, 255);
+    }
+  }
+
   /*
   *****************************************************************
    DRAW BUILDING CONTROL
@@ -76,16 +93,26 @@ void draw() {
    */
   if (DrawBuilding.state()) {
 
-    Vector2d gv = g.onVertex(new Vector2d(mouseX, mouseY));//the vertex that mouse is on
+    Blo b = g.onBlo(new Vector2d(mouseX, mouseY));
 
-    g.onBlo(new Vector2d(mouseX, mouseY)).draw(255, 0, 0);
+    if (b.inArea (new Vector2d(mouseX, mouseY))) {
+      if (mousePressed && mouseButton ==LEFT) {
+        this.building.add(b);
+      }
+    }
+    if (mousePressed && mouseButton ==RIGHT) {
+      this.building.pop();
+    }
+
+
+    this.building.draw(0, 0, 255);
+    b.draw(255, 0, 0);
   }
-
-
-
-
-  if (this.pl.ready()) {
-    pl.draw();
+  
+  if (this.blist.size()>0) {
+    for (Building bb : blist) {
+      bb.draw(0, 0, 255);
+    }
   }
 
 
@@ -96,9 +123,24 @@ void draw() {
    */
 
 
-  if (reset.state()) pl.clear();
+  if (NextRoad.state()) {//draw next road
 
-  reset.iterate();
+    if (pl.ready()) {
+      plist.add(pl);
+    }
+    pl = new PLine();
+  }
+  if (NextBuilding.state()) {//draw next building
+
+    if (building.ready()) {
+      blist.add(building);
+    }
+    building = new Building();
+  }
+
+
+  NextRoad.iterate();
+  NextBuilding.iterate();
   DrawRoad.iterate();
   DrawBuilding.iterate();
 }
@@ -106,9 +148,5 @@ void draw() {
 
 
 void keyPressed() {
-  if (key == 's'||key == 'S') {//submit
-  }
-  if (key == 'c'||key == 'C') {//clear
-  }
 }
 

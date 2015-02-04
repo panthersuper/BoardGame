@@ -1,6 +1,11 @@
+/*
+Wenzhe Peng
+ pwz@berkeley.edu
+ */
+
 class Vector2d {
-  double x;
-  double y;
+  private double x;
+  private double y;
 
   Vector2d(double x, double y) {
     this.x = x;

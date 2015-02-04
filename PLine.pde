@@ -1,3 +1,8 @@
+/*
+Wenzhe Peng
+ pwz@berkeley.edu
+ */
+
 class PLine {
   ArrayList<Vector2d> VList;
 
@@ -11,6 +16,12 @@ class PLine {
 
   void add(Vector2d v) {
     VList.add(v);
+  }
+  
+  void pop(){
+    VList.remove(VList.size()-1);
+    
+    
   }
   
   void clear(){
@@ -44,8 +55,26 @@ class PLine {
 
     }
     endShape();
-
     popStyle();
   }
+  
+    void draw(int r,int g,int b) {
+    pushStyle();
+    noFill();
+    stroke(r,g,b);
+    strokeWeight(3);
+    beginShape();
+    
+    
+    
+    for (Vector2d v:VList){
+          vertex((float)v.x, (float)v.y);
+
+    }
+    endShape();
+    popStyle();
+  }
+  
+  
 }
 

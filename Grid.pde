@@ -1,3 +1,8 @@
+/*
+Wenzhe Peng
+ pwz@berkeley.edu
+ */
+
 class Grid {
 
   int x;// number
@@ -59,7 +64,7 @@ class Grid {
     
     for (Vector2d[] vvs : vs) {
       for (Vector2d v : vvs) {
-        if (v.disSQ(pos)<5*5) {
+        if (v.disSQ(pos)<10*10) {
           return v;
         }
       }

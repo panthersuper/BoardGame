@@ -1,3 +1,8 @@
+/*
+Wenzhe Peng
+ pwz@berkeley.edu
+ */
+
 class Blo {
 
   int x;//x coodinate
@@ -22,14 +27,32 @@ class Blo {
     this.r_b = new Vector2d(x*w+w, y*h+h);
     this.value = 0;
   }
-  
-  void setValue(int v){
+
+  void setValue(int v) {
     this.value = v;
+  }
+
+  boolean inArea(Vector2d v) {
+    //judge whether v is inside of this block
+    if (v.getX()>this.x*w && v.getX()<this.x*w+this.w) {
+      if (v.getY()>this.y*h && v.getY()<this.y*h+this.h) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  boolean near(Blo b) {
+    if (((x+1==b.x || x-1==b.x)&&y == b.y)||((y+1==b.y || y-1==b.y)&&x == b.x)) {
+      return true;
+    } else {
+      return false;
+    }
   }
 
   void draw() {
     pushStyle();
-    
+
     fill(200);
     stroke(255);
     strokeWeight(2.5f);
@@ -43,13 +66,13 @@ class Blo {
     ellipse((float)r_b.x, (float)r_b.y, r, r);
     fill(100);
     text(value, (float)(x*w+w/2-3), (float)(y*h+h/2+5));
-    
+
     popStyle();
   }
-  
+
   void draw(int r, int g, int b) {
     pushStyle();
-    
+
     fill(r, g, b);
     stroke(255);
     strokeWeight(2.5f);

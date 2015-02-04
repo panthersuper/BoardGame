@@ -1,3 +1,8 @@
+/*
+Wenzhe Peng
+ pwz@berkeley.edu
+ */
+
 class Button {
   double x;//position x
   double y;//position y
@@ -42,13 +47,15 @@ class Button {
   if (!type){
     if (mousePressed && inZone()) {
       state = !state0;
+      draw(true);
     } else {
       state = state0;
+      draw(false);
     }
   }else{
     if (mousePressed && inZone()) {
       state = !state;
-      
+      draw(true);
       if (this.linked.size()>0){
         state = true;
         for (Button b : this.linked){
@@ -57,17 +64,24 @@ class Button {
         }
       }
     }
+    else
+    draw(false);
   }
     
-    draw();
+    
   }
 
-  void draw() {
+  void draw(boolean black) {
     pushStyle();
     stroke(255);
+    if (black)
     fill(230);
+    else fill(100);
     rect((float)x, (float)y, (float)w, (float)h);
+    if (black)
     fill(100);
+    else
+    fill(230);
     text(name, (float)(x+w/2-name.length()*3.5f), (float)(y+h/2+5));
 
     popStyle();
