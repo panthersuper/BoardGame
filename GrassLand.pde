@@ -3,16 +3,11 @@ Wenzhe Peng
  pwz@berkeley.edu
  */
 
-class Grassland extends Blos{
-    //grassland defined by consecutive blocks
+class Grassland extends Blos {
+  //grassland defined by consecutive blocks
 
-    Grassland(ArrayList lst){
-    
-    
-    
+    Grassland() {
+    this.limit = 8;
   }
-  
-  
-  
-  
 }
+

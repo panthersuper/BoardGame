@@ -11,6 +11,8 @@ Button NextRoad;
 Button DrawRoad;
 Button NextBuilding;
 Button DrawBuilding;
+Button NextGrass;
+Button DrawGrass;
 
 Button SAVEFILE;
 Export ex;
@@ -19,6 +21,8 @@ ArrayList<PLine> plist = new ArrayList();//road list
 PLine pl;//current drawing road
 ArrayList<Building> blist = new ArrayList();//building list
 Building building;//current drawing building
+ArrayList<Grassland> glist = new ArrayList();//grass list
+Grassland grass;//current drawing building
 
 
 void setup() {
@@ -35,15 +39,22 @@ void setup() {
   DrawRoad = new Button(si*row+50, si*col-100, 130, 25, true, "DRAWROAD");
   NextBuilding = new Button(si*row+50, si*col-130, 130, 25, false, "NEXTBUILDING");
   DrawBuilding = new Button(si*row+50, si*col-160, 130, 25, true, "DRAWBUILDING");
+  NextGrass = new Button(si*row+50, si*col-190, 130, 25, false, "NEXTGRASS");
+  DrawGrass = new Button(si*row+50, si*col-220, 130, 25, true, "DRAWGRASS");
   DrawRoad.setLink(DrawBuilding);
-  SAVEFILE = new Button(si*row+50, si*col-40, 130, 25, false, "SAVEFILE");;
-  
+  DrawRoad.setLink(DrawGrass);
+  DrawBuilding.setLink(DrawGrass);
+
+  SAVEFILE = new Button(si*row+50, si*col-40, 130, 25, false, "SAVEFILE");
+  ;
+
   size(si*row+200, si*col);
 
   pl = new PLine();
   building = new Building();
-  
-  ex = new Export(plist,blist,"");
+  grass= new Grassland();
+
+  ex = new Export(plist, blist, "");
 }
 
 void draw() {
@@ -103,7 +114,6 @@ void draw() {
     if (b.inArea (new Vector2d(mouseX, mouseY))) {
       if (mousePressed && mouseButton ==LEFT) {
         this.building.add(b);
-        
       }
     }
     if (mousePressed && mouseButton ==RIGHT) {
@@ -114,13 +124,40 @@ void draw() {
     this.building.draw(0, 0, 255);
     b.draw(255, 0, 0);
   }
-  
+
   if (this.blist.size()>0) {
     for (Building bb : blist) {
       bb.draw(0, 0, 255);
     }
   }
 
+  /****************************************************************
+   DRAW GRASS CONTROL
+   ****************************************************************
+   */
+  if (DrawGrass.state()) {
+
+    Blo b = g.onBlo(new Vector2d(mouseX, mouseY));
+
+    if (b.inArea (new Vector2d(mouseX, mouseY))) {
+      if (mousePressed && mouseButton ==LEFT) {
+        this.grass.add(b);
+      }
+    }
+    if (mousePressed && mouseButton ==RIGHT) {
+      this.grass.pop();
+    }
+
+
+    this.grass.draw(0, 255, 0);
+    b.draw(255, 0, 0);
+  }
+
+  if (this.glist.size()>0) {
+    for (Grassland bb : glist) {
+      bb.draw(0, 255, 0);
+    }
+  }
 
   /*
   *****************************************************************
@@ -129,33 +166,41 @@ void draw() {
    */
 
 
-  if (NextRoad.state()||DrawBuilding.state()) {//draw next road
+  if (NextRoad.state()||DrawBuilding.state()||DrawGrass.state()) {//draw next road
 
     if (pl.ready()) {
       plist.add(pl);
     }
     pl = new PLine();
   }
-  if (NextBuilding.state()||DrawRoad.state()) {//draw next building
+  if (NextBuilding.state()||DrawRoad.state()||DrawGrass.state()) {//draw next building
 
     if (building.ready()) {
       blist.add(building);
     }
     building = new Building();
   }
+  if (NextGrass.state()||DrawRoad.state()||DrawBuilding.state()) {//draw next grass
 
-  
-    if(SAVEFILE.state()){
-      ex.out();
-      
-      
+    if (grass.ready()) {
+      glist.add(grass);
     }
-    
+    grass = new Grassland();
+  }
+
+
+
+  if (SAVEFILE.state()) {
+    ex.out();
+  }
+
   NextRoad.iterate();
   NextBuilding.iterate();
   DrawRoad.iterate();
   DrawBuilding.iterate();
   SAVEFILE.iterate();
+  NextGrass.iterate();
+  DrawGrass.iterate();
 }
 
 
