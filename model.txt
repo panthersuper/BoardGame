@@ -1,0 +1,87 @@
+lstPL = []
+a.put(lstPL)
+lstbd = []
+hs = []
+b0 = []
+grid0_0 = []
+grid0_0.append(Point(680.0,240.0))
+grid0_0.append(Point(680.0,200.0))
+grid0_0.append(Point(720.0,200.0))
+grid0_0.append(Point(720.0,240.0))
+grid0_0.append(Point(680.0,240.0))
+b0.append(PLine(grid0_0))
+grid0_1 = []
+grid0_1.append(Point(680.0,200.0))
+grid0_1.append(Point(680.0,160.0))
+grid0_1.append(Point(720.0,160.0))
+grid0_1.append(Point(720.0,200.0))
+grid0_1.append(Point(680.0,200.0))
+b0.append(PLine(grid0_1))
+grid0_2 = []
+grid0_2.append(Point(680.0,160.0))
+grid0_2.append(Point(680.0,120.0))
+grid0_2.append(Point(720.0,120.0))
+grid0_2.append(Point(720.0,160.0))
+grid0_2.append(Point(680.0,160.0))
+b0.append(PLine(grid0_2))
+grid0_3 = []
+grid0_3.append(Point(640.0,160.0))
+grid0_3.append(Point(640.0,120.0))
+grid0_3.append(Point(680.0,120.0))
+grid0_3.append(Point(680.0,160.0))
+grid0_3.append(Point(640.0,160.0))
+b0.append(PLine(grid0_3))
+grid0_4 = []
+grid0_4.append(Point(640.0,200.0))
+grid0_4.append(Point(640.0,160.0))
+grid0_4.append(Point(680.0,160.0))
+grid0_4.append(Point(680.0,200.0))
+grid0_4.append(Point(640.0,200.0))
+b0.append(PLine(grid0_4))
+lstbd.append(b0)
+
+
+
+
+
+
+hs.append(10)
+b1 = []
+grid1_0 = []
+grid1_0.append(Point(680.0,280.0))
+grid1_0.append(Point(680.0,240.0))
+grid1_0.append(Point(720.0,240.0))
+grid1_0.append(Point(720.0,280.0))
+grid1_0.append(Point(680.0,280.0))
+b1.append(PLine(grid1_0))
+grid1_1 = []
+grid1_1.append(Point(640.0,280.0))
+grid1_1.append(Point(640.0,240.0))
+grid1_1.append(Point(680.0,240.0))
+grid1_1.append(Point(680.0,280.0))
+grid1_1.append(Point(640.0,280.0))
+b1.append(PLine(grid1_1))
+grid1_2 = []
+grid1_2.append(Point(640.0,240.0))
+grid1_2.append(Point(640.0,200.0))
+grid1_2.append(Point(680.0,200.0))
+grid1_2.append(Point(680.0,240.0))
+grid1_2.append(Point(640.0,240.0))
+b1.append(PLine(grid1_2))
+grid1_3 = []
+grid1_3.append(Point(640.0,200.0))
+grid1_3.append(Point(640.0,160.0))
+grid1_3.append(Point(680.0,160.0))
+grid1_3.append(Point(680.0,200.0))
+grid1_3.append(Point(640.0,200.0))
+b1.append(PLine(grid1_3))
+lstbd.append(b1)
+
+
+
+
+
+
+hs.append(20)
+b.put(lstbd)
+c.put(hs)

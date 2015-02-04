@@ -75,6 +75,12 @@ class PLine {
     popStyle();
   }
   
+  void exportPy(){
+    
+    
+    
+    
+  }
   
 }
 

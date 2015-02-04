@@ -12,6 +12,9 @@ Button DrawRoad;
 Button NextBuilding;
 Button DrawBuilding;
 
+Button SAVEFILE;
+Export ex;
+
 ArrayList<PLine> plist = new ArrayList();//road list
 PLine pl;//current drawing road
 ArrayList<Building> blist = new ArrayList();//building list
@@ -28,17 +31,19 @@ void setup() {
   g = new Grid(row, col, si*row, si*col);
   g.setBloV(table);
 
-  NextRoad = new Button(si*row+50, si*col-50, 130, 25, false, "NEXTROAD");
-  DrawRoad = new Button(si*row+50, si*col-80, 130, 25, true, "DRAWROAD");
-  NextBuilding = new Button(si*row+50, si*col-110, 130, 25, false, "NEXTBUILDING");
-  DrawBuilding = new Button(si*row+50, si*col-140, 130, 25, true, "DRAWBUILDING");
+  NextRoad = new Button(si*row+50, si*col-70, 130, 25, false, "NEXTROAD");
+  DrawRoad = new Button(si*row+50, si*col-100, 130, 25, true, "DRAWROAD");
+  NextBuilding = new Button(si*row+50, si*col-130, 130, 25, false, "NEXTBUILDING");
+  DrawBuilding = new Button(si*row+50, si*col-160, 130, 25, true, "DRAWBUILDING");
   DrawRoad.setLink(DrawBuilding);
-
-
+  SAVEFILE = new Button(si*row+50, si*col-40, 130, 25, false, "SAVEFILE");;
+  
   size(si*row+200, si*col);
 
   pl = new PLine();
   building = new Building();
+  
+  ex = new Export(plist,blist,"");
 }
 
 void draw() {
@@ -98,6 +103,7 @@ void draw() {
     if (b.inArea (new Vector2d(mouseX, mouseY))) {
       if (mousePressed && mouseButton ==LEFT) {
         this.building.add(b);
+        
       }
     }
     if (mousePressed && mouseButton ==RIGHT) {
@@ -123,14 +129,14 @@ void draw() {
    */
 
 
-  if (NextRoad.state()) {//draw next road
+  if (NextRoad.state()||DrawBuilding.state()) {//draw next road
 
     if (pl.ready()) {
       plist.add(pl);
     }
     pl = new PLine();
   }
-  if (NextBuilding.state()) {//draw next building
+  if (NextBuilding.state()||DrawRoad.state()) {//draw next building
 
     if (building.ready()) {
       blist.add(building);
@@ -138,11 +144,18 @@ void draw() {
     building = new Building();
   }
 
-
+  
+    if(SAVEFILE.state()){
+      ex.out();
+      
+      
+    }
+    
   NextRoad.iterate();
   NextBuilding.iterate();
   DrawRoad.iterate();
   DrawBuilding.iterate();
+  SAVEFILE.iterate();
 }
 
 

@@ -87,7 +87,7 @@ class Grid {
     pushStyle();
     for (int i = 0; i < x; i++) {
       for (int j = 0; j < y; j++) {
-        blos[i][j].draw();
+        blos[i][j].drawGreyscale();
       }
     }
     popStyle();

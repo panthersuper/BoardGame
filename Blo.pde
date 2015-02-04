@@ -31,6 +31,11 @@ class Blo {
   void setValue(int v) {
     this.value = v;
   }
+  
+  void addValue(){
+    this.value ++;
+    
+  }
 
   boolean inArea(Vector2d v) {
     //judge whether v is inside of this block
@@ -87,10 +92,14 @@ class Blo {
     ellipse((float)l_b.x, (float)l_b.y, rr, rr);
     ellipse((float)r_t.x, (float)r_t.y, rr, rr);
     ellipse((float)r_b.x, (float)r_b.y, rr, rr);
-    fill(100);
+    fill(255);
     text(value, (float)(x*w+w/2-3), (float)(y*h+h/2+5));
 
     popStyle();
+  }
+  
+  void drawGreyscale(){
+    draw(255-25*value,255-25*value,255-25*value);
   }
 }
 
