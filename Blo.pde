@@ -13,6 +13,7 @@ class Blo {
   Vector2d l_b;//each vertex for the block
   Vector2d r_t;//each vertex for the block
   Vector2d r_b;//each vertex for the block
+  Vector2d center;//the center of this block
   int value;//the layer value of this block
 
 
@@ -25,6 +26,7 @@ class Blo {
     this.l_b = new Vector2d(x*w, y*h+h);
     this.r_t = new Vector2d(x*w+w, y*h);
     this.r_b = new Vector2d(x*w+w, y*h+h);
+    this.center = new Vector2d(x*w+w/2,y*h+h/2);
     this.value = 0;
   }
 
@@ -37,6 +39,17 @@ class Blo {
     
   }
 
+  Blo copy(){
+    Blo b = new Blo(this.x,this.y,this.w,this.h);
+    b.setValue(this.value);
+    return b;
+    
+  }
+   
+  Vector2d Center(){
+    return this.center;
+  }
+   
   boolean inArea(Vector2d v) {
     //judge whether v is inside of this block
     if (v.getX()>this.x*w && v.getX()<this.x*w+this.w) {

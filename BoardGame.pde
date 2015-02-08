@@ -62,6 +62,74 @@ void draw() {
   g.draw();
 
 
+
+
+  /****************************************************************
+   DRAW SAVED DATA
+   ****************************************************************
+   */
+
+  if (this.glist.size()>0) {
+    for (Grassland bb : glist) {
+      bb.draw(0, 255, 0);
+    }
+  }
+
+  if (this.blist.size()>0) {
+    for (Building bb : blist) {
+      bb.draw(0, 0, 255);
+    }
+  }
+
+  /****************************************************************
+   DRAW GRASS CONTROL
+   ****************************************************************
+   */
+
+
+  if (DrawGrass.state()) {
+
+    Blo b = g.onBlo(new Vector2d(mouseX, mouseY));
+
+    if (b.inArea (new Vector2d(mouseX, mouseY))) {
+      if (mousePressed && mouseButton ==LEFT) {
+        this.grass.add(b);
+      }
+    }
+    if (mousePressed && mouseButton ==RIGHT) {
+      this.grass.pop();
+    }
+
+
+    this.grass.draw(0, 255, 0);
+    b.draw(255, 0, 0);
+  }
+
+
+
+  /*
+  *****************************************************************
+   DRAW BUILDING CONTROL
+   ****************************************************************
+   */
+  if (DrawBuilding.state()) {
+
+    Blo b = g.onBlo(new Vector2d(mouseX, mouseY));
+
+    if (b.inArea (new Vector2d(mouseX, mouseY))) {
+      if (mousePressed && mouseButton ==LEFT) {
+        this.building.add(b);
+      }
+    }
+    if (mousePressed && mouseButton ==RIGHT) {
+      this.building.pop();
+    }
+
+
+    this.building.draw(0, 0, 255);
+    b.draw(255, 0, 0);
+  }
+
   /*
   *****************************************************************
    DRAW ROAD CONTROL
@@ -104,63 +172,6 @@ void draw() {
 
   /*
   *****************************************************************
-   DRAW BUILDING CONTROL
-   ****************************************************************
-   */
-  if (DrawBuilding.state()) {
-
-    Blo b = g.onBlo(new Vector2d(mouseX, mouseY));
-
-    if (b.inArea (new Vector2d(mouseX, mouseY))) {
-      if (mousePressed && mouseButton ==LEFT) {
-        this.building.add(b);
-      }
-    }
-    if (mousePressed && mouseButton ==RIGHT) {
-      this.building.pop();
-    }
-
-
-    this.building.draw(0, 0, 255);
-    b.draw(255, 0, 0);
-  }
-
-  if (this.blist.size()>0) {
-    for (Building bb : blist) {
-      bb.draw(0, 0, 255);
-    }
-  }
-
-  /****************************************************************
-   DRAW GRASS CONTROL
-   ****************************************************************
-   */
-  if (DrawGrass.state()) {
-
-    Blo b = g.onBlo(new Vector2d(mouseX, mouseY));
-
-    if (b.inArea (new Vector2d(mouseX, mouseY))) {
-      if (mousePressed && mouseButton ==LEFT) {
-        this.grass.add(b);
-      }
-    }
-    if (mousePressed && mouseButton ==RIGHT) {
-      this.grass.pop();
-    }
-
-
-    this.grass.draw(0, 255, 0);
-    b.draw(255, 0, 0);
-  }
-
-  if (this.glist.size()>0) {
-    for (Grassland bb : glist) {
-      bb.draw(0, 255, 0);
-    }
-  }
-
-  /*
-  *****************************************************************
    BUTTON SECTION
    ****************************************************************
    */
@@ -188,12 +199,25 @@ void draw() {
     grass = new Grassland();
   }
 
-
-
   if (SAVEFILE.state()) {
+    if (pl.ready()) {
+      plist.add(pl);
+    }
+    pl = new PLine();
+    if (building.ready()) {
+      blist.add(building);
+    }
+    building = new Building();
+    if (grass.ready()) {
+      glist.add(grass);
+    }
+    grass = new Grassland();
+
     ex.out();
   }
 
+
+  println(building.gridList.size());
   NextRoad.iterate();
   NextBuilding.iterate();
   DrawRoad.iterate();

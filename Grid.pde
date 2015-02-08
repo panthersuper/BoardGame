@@ -52,6 +52,8 @@ class Grid {
     double my = pos.getY();
     int numX = (int) Math.floor(mx / ww);
     int numY = (int) Math.floor(my / hh);
+    if (numX<0) numX = 0;
+    if (numY<0) numY = 0;
     if(numX>x-1)
         return this.blos[x-1][numY];
     else
