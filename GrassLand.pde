@@ -7,7 +7,7 @@ class Grassland extends Blos {
   //grassland defined by consecutive blocks
 
     Grassland() {
-    this.limit = 8;
+    this.limit = 5;
   }
 }
 

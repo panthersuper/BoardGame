@@ -166,7 +166,7 @@ void draw() {
 
   if (this.plist.size()>0) {
     for (PLine ll : plist) {
-      ll.draw(0, 0, 255);
+      ll.draw();
     }
   }
 

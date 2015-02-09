@@ -48,8 +48,6 @@ class PLine {
     strokeWeight(3);
     beginShape();
     
-    
-    
     for (Vector2d v:VList){
           vertex((float)v.x, (float)v.y);
 

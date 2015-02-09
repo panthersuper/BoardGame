@@ -1,0 +1,3043 @@
+lstPL = []
+a.put(lstPL)
+lstbd = []
+hs = []
+b0 = []
+grid0_0 = []
+grid0_0.append(Point(0.0,40.0))
+grid0_0.append(Point(0.0,0.0))
+grid0_0.append(Point(40.0,0.0))
+grid0_0.append(Point(40.0,40.0))
+grid0_0.append(Point(0.0,40.0))
+b0.append(PLine(grid0_0))
+grid0_1 = []
+grid0_1.append(Point(40.0,40.0))
+grid0_1.append(Point(40.0,0.0))
+grid0_1.append(Point(80.0,0.0))
+grid0_1.append(Point(80.0,40.0))
+grid0_1.append(Point(40.0,40.0))
+b0.append(PLine(grid0_1))
+grid0_2 = []
+grid0_2.append(Point(40.0,80.0))
+grid0_2.append(Point(40.0,40.0))
+grid0_2.append(Point(80.0,40.0))
+grid0_2.append(Point(80.0,80.0))
+grid0_2.append(Point(40.0,80.0))
+b0.append(PLine(grid0_2))
+grid0_3 = []
+grid0_3.append(Point(0.0,80.0))
+grid0_3.append(Point(0.0,40.0))
+grid0_3.append(Point(40.0,40.0))
+grid0_3.append(Point(40.0,80.0))
+grid0_3.append(Point(0.0,80.0))
+b0.append(PLine(grid0_3))
+grid0_4 = []
+grid0_4.append(Point(0.0,120.0))
+grid0_4.append(Point(0.0,80.0))
+grid0_4.append(Point(40.0,80.0))
+grid0_4.append(Point(40.0,120.0))
+grid0_4.append(Point(0.0,120.0))
+b0.append(PLine(grid0_4))
+grid0_5 = []
+grid0_5.append(Point(40.0,120.0))
+grid0_5.append(Point(40.0,80.0))
+grid0_5.append(Point(80.0,80.0))
+grid0_5.append(Point(80.0,120.0))
+grid0_5.append(Point(40.0,120.0))
+b0.append(PLine(grid0_5))
+lstbd.append(b0)
+
+
+
+
+
+
+hs.append(20)
+b1 = []
+grid1_0 = []
+grid1_0.append(Point(80.0,40.0))
+grid1_0.append(Point(80.0,0.0))
+grid1_0.append(Point(120.0,0.0))
+grid1_0.append(Point(120.0,40.0))
+grid1_0.append(Point(80.0,40.0))
+b1.append(PLine(grid1_0))
+lstbd.append(b1)
+
+
+
+
+
+
+hs.append(10)
+b2 = []
+grid2_0 = []
+grid2_0.append(Point(120.0,40.0))
+grid2_0.append(Point(120.0,0.0))
+grid2_0.append(Point(160.0,0.0))
+grid2_0.append(Point(160.0,40.0))
+grid2_0.append(Point(120.0,40.0))
+b2.append(PLine(grid2_0))
+grid2_1 = []
+grid2_1.append(Point(120.0,80.0))
+grid2_1.append(Point(120.0,40.0))
+grid2_1.append(Point(160.0,40.0))
+grid2_1.append(Point(160.0,80.0))
+grid2_1.append(Point(120.0,80.0))
+b2.append(PLine(grid2_1))
+grid2_2 = []
+grid2_2.append(Point(120.0,120.0))
+grid2_2.append(Point(120.0,80.0))
+grid2_2.append(Point(160.0,80.0))
+grid2_2.append(Point(160.0,120.0))
+grid2_2.append(Point(120.0,120.0))
+b2.append(PLine(grid2_2))
+grid2_3 = []
+grid2_3.append(Point(80.0,120.0))
+grid2_3.append(Point(80.0,80.0))
+grid2_3.append(Point(120.0,80.0))
+grid2_3.append(Point(120.0,120.0))
+grid2_3.append(Point(80.0,120.0))
+b2.append(PLine(grid2_3))
+grid2_4 = []
+grid2_4.append(Point(80.0,80.0))
+grid2_4.append(Point(80.0,40.0))
+grid2_4.append(Point(120.0,40.0))
+grid2_4.append(Point(120.0,80.0))
+grid2_4.append(Point(80.0,80.0))
+b2.append(PLine(grid2_4))
+lstbd.append(b2)
+
+
+
+
+
+
+hs.append(20)
+b3 = []
+grid3_0 = []
+grid3_0.append(Point(160.0,200.0))
+grid3_0.append(Point(160.0,160.0))
+grid3_0.append(Point(200.0,160.0))
+grid3_0.append(Point(200.0,200.0))
+grid3_0.append(Point(160.0,200.0))
+b3.append(PLine(grid3_0))
+grid3_1 = []
+grid3_1.append(Point(160.0,160.0))
+grid3_1.append(Point(160.0,120.0))
+grid3_1.append(Point(200.0,120.0))
+grid3_1.append(Point(200.0,160.0))
+grid3_1.append(Point(160.0,160.0))
+b3.append(PLine(grid3_1))
+grid3_2 = []
+grid3_2.append(Point(160.0,120.0))
+grid3_2.append(Point(160.0,80.0))
+grid3_2.append(Point(200.0,80.0))
+grid3_2.append(Point(200.0,120.0))
+grid3_2.append(Point(160.0,120.0))
+b3.append(PLine(grid3_2))
+grid3_3 = []
+grid3_3.append(Point(160.0,80.0))
+grid3_3.append(Point(160.0,40.0))
+grid3_3.append(Point(200.0,40.0))
+grid3_3.append(Point(200.0,80.0))
+grid3_3.append(Point(160.0,80.0))
+b3.append(PLine(grid3_3))
+grid3_4 = []
+grid3_4.append(Point(160.0,40.0))
+grid3_4.append(Point(160.0,0.0))
+grid3_4.append(Point(200.0,0.0))
+grid3_4.append(Point(200.0,40.0))
+grid3_4.append(Point(160.0,40.0))
+b3.append(PLine(grid3_4))
+grid3_5 = []
+grid3_5.append(Point(200.0,40.0))
+grid3_5.append(Point(200.0,0.0))
+grid3_5.append(Point(240.0,0.0))
+grid3_5.append(Point(240.0,40.0))
+grid3_5.append(Point(200.0,40.0))
+b3.append(PLine(grid3_5))
+lstbd.append(b3)
+
+
+
+
+
+
+hs.append(10)
+b4 = []
+grid4_0 = []
+grid4_0.append(Point(240.0,120.0))
+grid4_0.append(Point(240.0,80.0))
+grid4_0.append(Point(280.0,80.0))
+grid4_0.append(Point(280.0,120.0))
+grid4_0.append(Point(240.0,120.0))
+b4.append(PLine(grid4_0))
+grid4_1 = []
+grid4_1.append(Point(240.0,80.0))
+grid4_1.append(Point(240.0,40.0))
+grid4_1.append(Point(280.0,40.0))
+grid4_1.append(Point(280.0,80.0))
+grid4_1.append(Point(240.0,80.0))
+b4.append(PLine(grid4_1))
+grid4_2 = []
+grid4_2.append(Point(240.0,40.0))
+grid4_2.append(Point(240.0,0.0))
+grid4_2.append(Point(280.0,0.0))
+grid4_2.append(Point(280.0,40.0))
+grid4_2.append(Point(240.0,40.0))
+b4.append(PLine(grid4_2))
+grid4_3 = []
+grid4_3.append(Point(200.0,80.0))
+grid4_3.append(Point(200.0,40.0))
+grid4_3.append(Point(240.0,40.0))
+grid4_3.append(Point(240.0,80.0))
+grid4_3.append(Point(200.0,80.0))
+b4.append(PLine(grid4_3))
+lstbd.append(b4)
+
+
+
+
+
+
+hs.append(10)
+b5 = []
+grid5_0 = []
+grid5_0.append(Point(280.0,40.0))
+grid5_0.append(Point(280.0,0.0))
+grid5_0.append(Point(320.0,0.0))
+grid5_0.append(Point(320.0,40.0))
+grid5_0.append(Point(280.0,40.0))
+b5.append(PLine(grid5_0))
+grid5_1 = []
+grid5_1.append(Point(280.0,80.0))
+grid5_1.append(Point(280.0,40.0))
+grid5_1.append(Point(320.0,40.0))
+grid5_1.append(Point(320.0,80.0))
+grid5_1.append(Point(280.0,80.0))
+b5.append(PLine(grid5_1))
+grid5_2 = []
+grid5_2.append(Point(320.0,80.0))
+grid5_2.append(Point(320.0,40.0))
+grid5_2.append(Point(360.0,40.0))
+grid5_2.append(Point(360.0,80.0))
+grid5_2.append(Point(320.0,80.0))
+b5.append(PLine(grid5_2))
+grid5_3 = []
+grid5_3.append(Point(320.0,120.0))
+grid5_3.append(Point(320.0,80.0))
+grid5_3.append(Point(360.0,80.0))
+grid5_3.append(Point(360.0,120.0))
+grid5_3.append(Point(320.0,120.0))
+b5.append(PLine(grid5_3))
+grid5_4 = []
+grid5_4.append(Point(320.0,40.0))
+grid5_4.append(Point(320.0,0.0))
+grid5_4.append(Point(360.0,0.0))
+grid5_4.append(Point(360.0,40.0))
+grid5_4.append(Point(320.0,40.0))
+b5.append(PLine(grid5_4))
+grid5_5 = []
+grid5_5.append(Point(360.0,40.0))
+grid5_5.append(Point(360.0,0.0))
+grid5_5.append(Point(400.0,0.0))
+grid5_5.append(Point(400.0,40.0))
+grid5_5.append(Point(360.0,40.0))
+b5.append(PLine(grid5_5))
+lstbd.append(b5)
+
+
+
+
+
+
+hs.append(10)
+b6 = []
+grid6_0 = []
+grid6_0.append(Point(360.0,80.0))
+grid6_0.append(Point(360.0,40.0))
+grid6_0.append(Point(400.0,40.0))
+grid6_0.append(Point(400.0,80.0))
+grid6_0.append(Point(360.0,80.0))
+b6.append(PLine(grid6_0))
+grid6_1 = []
+grid6_1.append(Point(360.0,120.0))
+grid6_1.append(Point(360.0,80.0))
+grid6_1.append(Point(400.0,80.0))
+grid6_1.append(Point(400.0,120.0))
+grid6_1.append(Point(360.0,120.0))
+b6.append(PLine(grid6_1))
+grid6_2 = []
+grid6_2.append(Point(360.0,160.0))
+grid6_2.append(Point(360.0,120.0))
+grid6_2.append(Point(400.0,120.0))
+grid6_2.append(Point(400.0,160.0))
+grid6_2.append(Point(360.0,160.0))
+b6.append(PLine(grid6_2))
+grid6_3 = []
+grid6_3.append(Point(400.0,160.0))
+grid6_3.append(Point(400.0,120.0))
+grid6_3.append(Point(440.0,120.0))
+grid6_3.append(Point(440.0,160.0))
+grid6_3.append(Point(400.0,160.0))
+b6.append(PLine(grid6_3))
+grid6_4 = []
+grid6_4.append(Point(400.0,120.0))
+grid6_4.append(Point(400.0,80.0))
+grid6_4.append(Point(440.0,80.0))
+grid6_4.append(Point(440.0,120.0))
+grid6_4.append(Point(400.0,120.0))
+b6.append(PLine(grid6_4))
+grid6_5 = []
+grid6_5.append(Point(400.0,80.0))
+grid6_5.append(Point(400.0,40.0))
+grid6_5.append(Point(440.0,40.0))
+grid6_5.append(Point(440.0,80.0))
+grid6_5.append(Point(400.0,80.0))
+b6.append(PLine(grid6_5))
+lstbd.append(b6)
+
+
+
+
+
+
+hs.append(10)
+b7 = []
+grid7_0 = []
+grid7_0.append(Point(400.0,40.0))
+grid7_0.append(Point(400.0,0.0))
+grid7_0.append(Point(440.0,0.0))
+grid7_0.append(Point(440.0,40.0))
+grid7_0.append(Point(400.0,40.0))
+b7.append(PLine(grid7_0))
+grid7_1 = []
+grid7_1.append(Point(440.0,40.0))
+grid7_1.append(Point(440.0,0.0))
+grid7_1.append(Point(480.0,0.0))
+grid7_1.append(Point(480.0,40.0))
+grid7_1.append(Point(440.0,40.0))
+b7.append(PLine(grid7_1))
+grid7_2 = []
+grid7_2.append(Point(440.0,80.0))
+grid7_2.append(Point(440.0,40.0))
+grid7_2.append(Point(480.0,40.0))
+grid7_2.append(Point(480.0,80.0))
+grid7_2.append(Point(440.0,80.0))
+b7.append(PLine(grid7_2))
+grid7_3 = []
+grid7_3.append(Point(440.0,120.0))
+grid7_3.append(Point(440.0,80.0))
+grid7_3.append(Point(480.0,80.0))
+grid7_3.append(Point(480.0,120.0))
+grid7_3.append(Point(440.0,120.0))
+b7.append(PLine(grid7_3))
+grid7_4 = []
+grid7_4.append(Point(440.0,160.0))
+grid7_4.append(Point(440.0,120.0))
+grid7_4.append(Point(480.0,120.0))
+grid7_4.append(Point(480.0,160.0))
+grid7_4.append(Point(440.0,160.0))
+b7.append(PLine(grid7_4))
+grid7_5 = []
+grid7_5.append(Point(480.0,80.0))
+grid7_5.append(Point(480.0,40.0))
+grid7_5.append(Point(520.0,40.0))
+grid7_5.append(Point(520.0,80.0))
+grid7_5.append(Point(480.0,80.0))
+b7.append(PLine(grid7_5))
+lstbd.append(b7)
+
+
+
+
+
+
+hs.append(10)
+b8 = []
+grid8_0 = []
+grid8_0.append(Point(480.0,40.0))
+grid8_0.append(Point(480.0,0.0))
+grid8_0.append(Point(520.0,0.0))
+grid8_0.append(Point(520.0,40.0))
+grid8_0.append(Point(480.0,40.0))
+b8.append(PLine(grid8_0))
+grid8_1 = []
+grid8_1.append(Point(520.0,40.0))
+grid8_1.append(Point(520.0,0.0))
+grid8_1.append(Point(560.0,0.0))
+grid8_1.append(Point(560.0,40.0))
+grid8_1.append(Point(520.0,40.0))
+b8.append(PLine(grid8_1))
+grid8_2 = []
+grid8_2.append(Point(560.0,40.0))
+grid8_2.append(Point(560.0,0.0))
+grid8_2.append(Point(600.0,0.0))
+grid8_2.append(Point(600.0,40.0))
+grid8_2.append(Point(560.0,40.0))
+b8.append(PLine(grid8_2))
+grid8_3 = []
+grid8_3.append(Point(560.0,80.0))
+grid8_3.append(Point(560.0,40.0))
+grid8_3.append(Point(600.0,40.0))
+grid8_3.append(Point(600.0,80.0))
+grid8_3.append(Point(560.0,80.0))
+b8.append(PLine(grid8_3))
+grid8_4 = []
+grid8_4.append(Point(600.0,80.0))
+grid8_4.append(Point(600.0,40.0))
+grid8_4.append(Point(640.0,40.0))
+grid8_4.append(Point(640.0,80.0))
+grid8_4.append(Point(600.0,80.0))
+b8.append(PLine(grid8_4))
+grid8_5 = []
+grid8_5.append(Point(600.0,40.0))
+grid8_5.append(Point(600.0,0.0))
+grid8_5.append(Point(640.0,0.0))
+grid8_5.append(Point(640.0,40.0))
+grid8_5.append(Point(600.0,40.0))
+b8.append(PLine(grid8_5))
+lstbd.append(b8)
+
+
+
+
+
+
+hs.append(10)
+b9 = []
+grid9_0 = []
+grid9_0.append(Point(640.0,40.0))
+grid9_0.append(Point(640.0,0.0))
+grid9_0.append(Point(680.0,0.0))
+grid9_0.append(Point(680.0,40.0))
+grid9_0.append(Point(640.0,40.0))
+b9.append(PLine(grid9_0))
+grid9_1 = []
+grid9_1.append(Point(640.0,80.0))
+grid9_1.append(Point(640.0,40.0))
+grid9_1.append(Point(680.0,40.0))
+grid9_1.append(Point(680.0,80.0))
+grid9_1.append(Point(640.0,80.0))
+b9.append(PLine(grid9_1))
+grid9_2 = []
+grid9_2.append(Point(640.0,120.0))
+grid9_2.append(Point(640.0,80.0))
+grid9_2.append(Point(680.0,80.0))
+grid9_2.append(Point(680.0,120.0))
+grid9_2.append(Point(640.0,120.0))
+b9.append(PLine(grid9_2))
+grid9_3 = []
+grid9_3.append(Point(600.0,120.0))
+grid9_3.append(Point(600.0,80.0))
+grid9_3.append(Point(640.0,80.0))
+grid9_3.append(Point(640.0,120.0))
+grid9_3.append(Point(600.0,120.0))
+b9.append(PLine(grid9_3))
+lstbd.append(b9)
+
+
+
+
+
+
+hs.append(10)
+b10 = []
+grid10_0 = []
+grid10_0.append(Point(640.0,160.0))
+grid10_0.append(Point(640.0,120.0))
+grid10_0.append(Point(680.0,120.0))
+grid10_0.append(Point(680.0,160.0))
+grid10_0.append(Point(640.0,160.0))
+b10.append(PLine(grid10_0))
+grid10_1 = []
+grid10_1.append(Point(640.0,200.0))
+grid10_1.append(Point(640.0,160.0))
+grid10_1.append(Point(680.0,160.0))
+grid10_1.append(Point(680.0,200.0))
+grid10_1.append(Point(640.0,200.0))
+b10.append(PLine(grid10_1))
+grid10_2 = []
+grid10_2.append(Point(680.0,200.0))
+grid10_2.append(Point(680.0,160.0))
+grid10_2.append(Point(720.0,160.0))
+grid10_2.append(Point(720.0,200.0))
+grid10_2.append(Point(680.0,200.0))
+b10.append(PLine(grid10_2))
+grid10_3 = []
+grid10_3.append(Point(680.0,160.0))
+grid10_3.append(Point(680.0,120.0))
+grid10_3.append(Point(720.0,120.0))
+grid10_3.append(Point(720.0,160.0))
+grid10_3.append(Point(680.0,160.0))
+b10.append(PLine(grid10_3))
+grid10_4 = []
+grid10_4.append(Point(680.0,120.0))
+grid10_4.append(Point(680.0,80.0))
+grid10_4.append(Point(720.0,80.0))
+grid10_4.append(Point(720.0,120.0))
+grid10_4.append(Point(680.0,120.0))
+b10.append(PLine(grid10_4))
+grid10_5 = []
+grid10_5.append(Point(680.0,80.0))
+grid10_5.append(Point(680.0,40.0))
+grid10_5.append(Point(720.0,40.0))
+grid10_5.append(Point(720.0,80.0))
+grid10_5.append(Point(680.0,80.0))
+b10.append(PLine(grid10_5))
+lstbd.append(b10)
+
+
+
+
+
+
+hs.append(10)
+b11 = []
+grid11_0 = []
+grid11_0.append(Point(680.0,40.0))
+grid11_0.append(Point(680.0,0.0))
+grid11_0.append(Point(720.0,0.0))
+grid11_0.append(Point(720.0,40.0))
+grid11_0.append(Point(680.0,40.0))
+b11.append(PLine(grid11_0))
+grid11_1 = []
+grid11_1.append(Point(720.0,40.0))
+grid11_1.append(Point(720.0,0.0))
+grid11_1.append(Point(760.0,0.0))
+grid11_1.append(Point(760.0,40.0))
+grid11_1.append(Point(720.0,40.0))
+b11.append(PLine(grid11_1))
+grid11_2 = []
+grid11_2.append(Point(760.0,40.0))
+grid11_2.append(Point(760.0,0.0))
+grid11_2.append(Point(800.0,0.0))
+grid11_2.append(Point(800.0,40.0))
+grid11_2.append(Point(760.0,40.0))
+b11.append(PLine(grid11_2))
+grid11_3 = []
+grid11_3.append(Point(800.0,40.0))
+grid11_3.append(Point(800.0,0.0))
+grid11_3.append(Point(840.0,0.0))
+grid11_3.append(Point(840.0,40.0))
+grid11_3.append(Point(800.0,40.0))
+b11.append(PLine(grid11_3))
+grid11_4 = []
+grid11_4.append(Point(840.0,40.0))
+grid11_4.append(Point(840.0,0.0))
+grid11_4.append(Point(880.0,0.0))
+grid11_4.append(Point(880.0,40.0))
+grid11_4.append(Point(840.0,40.0))
+b11.append(PLine(grid11_4))
+grid11_5 = []
+grid11_5.append(Point(880.0,40.0))
+grid11_5.append(Point(880.0,0.0))
+grid11_5.append(Point(920.0,0.0))
+grid11_5.append(Point(920.0,40.0))
+grid11_5.append(Point(880.0,40.0))
+b11.append(PLine(grid11_5))
+lstbd.append(b11)
+
+
+
+
+
+
+hs.append(10)
+b12 = []
+grid12_0 = []
+grid12_0.append(Point(880.0,80.0))
+grid12_0.append(Point(880.0,40.0))
+grid12_0.append(Point(920.0,40.0))
+grid12_0.append(Point(920.0,80.0))
+grid12_0.append(Point(880.0,80.0))
+b12.append(PLine(grid12_0))
+grid12_1 = []
+grid12_1.append(Point(840.0,80.0))
+grid12_1.append(Point(840.0,40.0))
+grid12_1.append(Point(880.0,40.0))
+grid12_1.append(Point(880.0,80.0))
+grid12_1.append(Point(840.0,80.0))
+b12.append(PLine(grid12_1))
+grid12_2 = []
+grid12_2.append(Point(800.0,80.0))
+grid12_2.append(Point(800.0,40.0))
+grid12_2.append(Point(840.0,40.0))
+grid12_2.append(Point(840.0,80.0))
+grid12_2.append(Point(800.0,80.0))
+b12.append(PLine(grid12_2))
+grid12_3 = []
+grid12_3.append(Point(760.0,80.0))
+grid12_3.append(Point(760.0,40.0))
+grid12_3.append(Point(800.0,40.0))
+grid12_3.append(Point(800.0,80.0))
+grid12_3.append(Point(760.0,80.0))
+b12.append(PLine(grid12_3))
+grid12_4 = []
+grid12_4.append(Point(720.0,80.0))
+grid12_4.append(Point(720.0,40.0))
+grid12_4.append(Point(760.0,40.0))
+grid12_4.append(Point(760.0,80.0))
+grid12_4.append(Point(720.0,80.0))
+b12.append(PLine(grid12_4))
+grid12_5 = []
+grid12_5.append(Point(720.0,120.0))
+grid12_5.append(Point(720.0,80.0))
+grid12_5.append(Point(760.0,80.0))
+grid12_5.append(Point(760.0,120.0))
+grid12_5.append(Point(720.0,120.0))
+b12.append(PLine(grid12_5))
+lstbd.append(b12)
+
+
+
+
+
+
+hs.append(10)
+b13 = []
+grid13_0 = []
+grid13_0.append(Point(760.0,120.0))
+grid13_0.append(Point(760.0,80.0))
+grid13_0.append(Point(800.0,80.0))
+grid13_0.append(Point(800.0,120.0))
+grid13_0.append(Point(760.0,120.0))
+b13.append(PLine(grid13_0))
+grid13_1 = []
+grid13_1.append(Point(800.0,120.0))
+grid13_1.append(Point(800.0,80.0))
+grid13_1.append(Point(840.0,80.0))
+grid13_1.append(Point(840.0,120.0))
+grid13_1.append(Point(800.0,120.0))
+b13.append(PLine(grid13_1))
+grid13_2 = []
+grid13_2.append(Point(840.0,120.0))
+grid13_2.append(Point(840.0,80.0))
+grid13_2.append(Point(880.0,80.0))
+grid13_2.append(Point(880.0,120.0))
+grid13_2.append(Point(840.0,120.0))
+b13.append(PLine(grid13_2))
+grid13_3 = []
+grid13_3.append(Point(880.0,120.0))
+grid13_3.append(Point(880.0,80.0))
+grid13_3.append(Point(920.0,80.0))
+grid13_3.append(Point(920.0,120.0))
+grid13_3.append(Point(880.0,120.0))
+b13.append(PLine(grid13_3))
+grid13_4 = []
+grid13_4.append(Point(880.0,160.0))
+grid13_4.append(Point(880.0,120.0))
+grid13_4.append(Point(920.0,120.0))
+grid13_4.append(Point(920.0,160.0))
+grid13_4.append(Point(880.0,160.0))
+b13.append(PLine(grid13_4))
+grid13_5 = []
+grid13_5.append(Point(840.0,160.0))
+grid13_5.append(Point(840.0,120.0))
+grid13_5.append(Point(880.0,120.0))
+grid13_5.append(Point(880.0,160.0))
+grid13_5.append(Point(840.0,160.0))
+b13.append(PLine(grid13_5))
+lstbd.append(b13)
+
+
+
+
+
+
+hs.append(10)
+b14 = []
+grid14_0 = []
+grid14_0.append(Point(800.0,160.0))
+grid14_0.append(Point(800.0,120.0))
+grid14_0.append(Point(840.0,120.0))
+grid14_0.append(Point(840.0,160.0))
+grid14_0.append(Point(800.0,160.0))
+b14.append(PLine(grid14_0))
+grid14_1 = []
+grid14_1.append(Point(760.0,160.0))
+grid14_1.append(Point(760.0,120.0))
+grid14_1.append(Point(800.0,120.0))
+grid14_1.append(Point(800.0,160.0))
+grid14_1.append(Point(760.0,160.0))
+b14.append(PLine(grid14_1))
+grid14_2 = []
+grid14_2.append(Point(720.0,160.0))
+grid14_2.append(Point(720.0,120.0))
+grid14_2.append(Point(760.0,120.0))
+grid14_2.append(Point(760.0,160.0))
+grid14_2.append(Point(720.0,160.0))
+b14.append(PLine(grid14_2))
+grid14_3 = []
+grid14_3.append(Point(720.0,200.0))
+grid14_3.append(Point(720.0,160.0))
+grid14_3.append(Point(760.0,160.0))
+grid14_3.append(Point(760.0,200.0))
+grid14_3.append(Point(720.0,200.0))
+b14.append(PLine(grid14_3))
+grid14_4 = []
+grid14_4.append(Point(760.0,200.0))
+grid14_4.append(Point(760.0,160.0))
+grid14_4.append(Point(800.0,160.0))
+grid14_4.append(Point(800.0,200.0))
+grid14_4.append(Point(760.0,200.0))
+b14.append(PLine(grid14_4))
+grid14_5 = []
+grid14_5.append(Point(800.0,200.0))
+grid14_5.append(Point(800.0,160.0))
+grid14_5.append(Point(840.0,160.0))
+grid14_5.append(Point(840.0,200.0))
+grid14_5.append(Point(800.0,200.0))
+b14.append(PLine(grid14_5))
+lstbd.append(b14)
+
+
+
+
+
+
+hs.append(10)
+b15 = []
+grid15_0 = []
+grid15_0.append(Point(840.0,280.0))
+grid15_0.append(Point(840.0,240.0))
+grid15_0.append(Point(880.0,240.0))
+grid15_0.append(Point(880.0,280.0))
+grid15_0.append(Point(840.0,280.0))
+b15.append(PLine(grid15_0))
+grid15_1 = []
+grid15_1.append(Point(840.0,240.0))
+grid15_1.append(Point(840.0,200.0))
+grid15_1.append(Point(880.0,200.0))
+grid15_1.append(Point(880.0,240.0))
+grid15_1.append(Point(840.0,240.0))
+b15.append(PLine(grid15_1))
+grid15_2 = []
+grid15_2.append(Point(840.0,200.0))
+grid15_2.append(Point(840.0,160.0))
+grid15_2.append(Point(880.0,160.0))
+grid15_2.append(Point(880.0,200.0))
+grid15_2.append(Point(840.0,200.0))
+b15.append(PLine(grid15_2))
+grid15_3 = []
+grid15_3.append(Point(880.0,200.0))
+grid15_3.append(Point(880.0,160.0))
+grid15_3.append(Point(920.0,160.0))
+grid15_3.append(Point(920.0,200.0))
+grid15_3.append(Point(880.0,200.0))
+b15.append(PLine(grid15_3))
+grid15_4 = []
+grid15_4.append(Point(880.0,240.0))
+grid15_4.append(Point(880.0,200.0))
+grid15_4.append(Point(920.0,200.0))
+grid15_4.append(Point(920.0,240.0))
+grid15_4.append(Point(880.0,240.0))
+b15.append(PLine(grid15_4))
+grid15_5 = []
+grid15_5.append(Point(880.0,280.0))
+grid15_5.append(Point(880.0,240.0))
+grid15_5.append(Point(920.0,240.0))
+grid15_5.append(Point(920.0,280.0))
+grid15_5.append(Point(880.0,280.0))
+b15.append(PLine(grid15_5))
+lstbd.append(b15)
+
+
+
+
+
+
+hs.append(10)
+b16 = []
+grid16_0 = []
+grid16_0.append(Point(840.0,400.0))
+grid16_0.append(Point(840.0,360.0))
+grid16_0.append(Point(880.0,360.0))
+grid16_0.append(Point(880.0,400.0))
+grid16_0.append(Point(840.0,400.0))
+b16.append(PLine(grid16_0))
+grid16_1 = []
+grid16_1.append(Point(840.0,360.0))
+grid16_1.append(Point(840.0,320.0))
+grid16_1.append(Point(880.0,320.0))
+grid16_1.append(Point(880.0,360.0))
+grid16_1.append(Point(840.0,360.0))
+b16.append(PLine(grid16_1))
+grid16_2 = []
+grid16_2.append(Point(840.0,320.0))
+grid16_2.append(Point(840.0,280.0))
+grid16_2.append(Point(880.0,280.0))
+grid16_2.append(Point(880.0,320.0))
+grid16_2.append(Point(840.0,320.0))
+b16.append(PLine(grid16_2))
+grid16_3 = []
+grid16_3.append(Point(880.0,320.0))
+grid16_3.append(Point(880.0,280.0))
+grid16_3.append(Point(920.0,280.0))
+grid16_3.append(Point(920.0,320.0))
+grid16_3.append(Point(880.0,320.0))
+b16.append(PLine(grid16_3))
+grid16_4 = []
+grid16_4.append(Point(880.0,360.0))
+grid16_4.append(Point(880.0,320.0))
+grid16_4.append(Point(920.0,320.0))
+grid16_4.append(Point(920.0,360.0))
+grid16_4.append(Point(880.0,360.0))
+b16.append(PLine(grid16_4))
+grid16_5 = []
+grid16_5.append(Point(880.0,400.0))
+grid16_5.append(Point(880.0,360.0))
+grid16_5.append(Point(920.0,360.0))
+grid16_5.append(Point(920.0,400.0))
+grid16_5.append(Point(880.0,400.0))
+b16.append(PLine(grid16_5))
+lstbd.append(b16)
+
+
+
+
+
+
+hs.append(10)
+b17 = []
+grid17_0 = []
+grid17_0.append(Point(840.0,520.0))
+grid17_0.append(Point(840.0,480.0))
+grid17_0.append(Point(880.0,480.0))
+grid17_0.append(Point(880.0,520.0))
+grid17_0.append(Point(840.0,520.0))
+b17.append(PLine(grid17_0))
+grid17_1 = []
+grid17_1.append(Point(840.0,480.0))
+grid17_1.append(Point(840.0,440.0))
+grid17_1.append(Point(880.0,440.0))
+grid17_1.append(Point(880.0,480.0))
+grid17_1.append(Point(840.0,480.0))
+b17.append(PLine(grid17_1))
+grid17_2 = []
+grid17_2.append(Point(840.0,440.0))
+grid17_2.append(Point(840.0,400.0))
+grid17_2.append(Point(880.0,400.0))
+grid17_2.append(Point(880.0,440.0))
+grid17_2.append(Point(840.0,440.0))
+b17.append(PLine(grid17_2))
+grid17_3 = []
+grid17_3.append(Point(880.0,440.0))
+grid17_3.append(Point(880.0,400.0))
+grid17_3.append(Point(920.0,400.0))
+grid17_3.append(Point(920.0,440.0))
+grid17_3.append(Point(880.0,440.0))
+b17.append(PLine(grid17_3))
+grid17_4 = []
+grid17_4.append(Point(880.0,480.0))
+grid17_4.append(Point(880.0,440.0))
+grid17_4.append(Point(920.0,440.0))
+grid17_4.append(Point(920.0,480.0))
+grid17_4.append(Point(880.0,480.0))
+b17.append(PLine(grid17_4))
+grid17_5 = []
+grid17_5.append(Point(880.0,520.0))
+grid17_5.append(Point(880.0,480.0))
+grid17_5.append(Point(920.0,480.0))
+grid17_5.append(Point(920.0,520.0))
+grid17_5.append(Point(880.0,520.0))
+b17.append(PLine(grid17_5))
+lstbd.append(b17)
+
+
+
+
+
+
+hs.append(10)
+b18 = []
+grid18_0 = []
+grid18_0.append(Point(880.0,560.0))
+grid18_0.append(Point(880.0,520.0))
+grid18_0.append(Point(920.0,520.0))
+grid18_0.append(Point(920.0,560.0))
+grid18_0.append(Point(880.0,560.0))
+b18.append(PLine(grid18_0))
+grid18_1 = []
+grid18_1.append(Point(840.0,560.0))
+grid18_1.append(Point(840.0,520.0))
+grid18_1.append(Point(880.0,520.0))
+grid18_1.append(Point(880.0,560.0))
+grid18_1.append(Point(840.0,560.0))
+b18.append(PLine(grid18_1))
+grid18_2 = []
+grid18_2.append(Point(800.0,560.0))
+grid18_2.append(Point(800.0,520.0))
+grid18_2.append(Point(840.0,520.0))
+grid18_2.append(Point(840.0,560.0))
+grid18_2.append(Point(800.0,560.0))
+b18.append(PLine(grid18_2))
+grid18_3 = []
+grid18_3.append(Point(800.0,520.0))
+grid18_3.append(Point(800.0,480.0))
+grid18_3.append(Point(840.0,480.0))
+grid18_3.append(Point(840.0,520.0))
+grid18_3.append(Point(800.0,520.0))
+b18.append(PLine(grid18_3))
+grid18_4 = []
+grid18_4.append(Point(800.0,480.0))
+grid18_4.append(Point(800.0,440.0))
+grid18_4.append(Point(840.0,440.0))
+grid18_4.append(Point(840.0,480.0))
+grid18_4.append(Point(800.0,480.0))
+b18.append(PLine(grid18_4))
+grid18_5 = []
+grid18_5.append(Point(800.0,440.0))
+grid18_5.append(Point(800.0,400.0))
+grid18_5.append(Point(840.0,400.0))
+grid18_5.append(Point(840.0,440.0))
+grid18_5.append(Point(800.0,440.0))
+b18.append(PLine(grid18_5))
+lstbd.append(b18)
+
+
+
+
+
+
+hs.append(10)
+b19 = []
+grid19_0 = []
+grid19_0.append(Point(800.0,400.0))
+grid19_0.append(Point(800.0,360.0))
+grid19_0.append(Point(840.0,360.0))
+grid19_0.append(Point(840.0,400.0))
+grid19_0.append(Point(800.0,400.0))
+b19.append(PLine(grid19_0))
+grid19_1 = []
+grid19_1.append(Point(800.0,360.0))
+grid19_1.append(Point(800.0,320.0))
+grid19_1.append(Point(840.0,320.0))
+grid19_1.append(Point(840.0,360.0))
+grid19_1.append(Point(800.0,360.0))
+b19.append(PLine(grid19_1))
+grid19_2 = []
+grid19_2.append(Point(800.0,320.0))
+grid19_2.append(Point(800.0,280.0))
+grid19_2.append(Point(840.0,280.0))
+grid19_2.append(Point(840.0,320.0))
+grid19_2.append(Point(800.0,320.0))
+b19.append(PLine(grid19_2))
+grid19_3 = []
+grid19_3.append(Point(800.0,280.0))
+grid19_3.append(Point(800.0,240.0))
+grid19_3.append(Point(840.0,240.0))
+grid19_3.append(Point(840.0,280.0))
+grid19_3.append(Point(800.0,280.0))
+b19.append(PLine(grid19_3))
+grid19_4 = []
+grid19_4.append(Point(800.0,240.0))
+grid19_4.append(Point(800.0,200.0))
+grid19_4.append(Point(840.0,200.0))
+grid19_4.append(Point(840.0,240.0))
+grid19_4.append(Point(800.0,240.0))
+b19.append(PLine(grid19_4))
+grid19_5 = []
+grid19_5.append(Point(760.0,240.0))
+grid19_5.append(Point(760.0,200.0))
+grid19_5.append(Point(800.0,200.0))
+grid19_5.append(Point(800.0,240.0))
+grid19_5.append(Point(760.0,240.0))
+b19.append(PLine(grid19_5))
+lstbd.append(b19)
+
+
+
+
+
+
+hs.append(10)
+b20 = []
+grid20_0 = []
+grid20_0.append(Point(760.0,280.0))
+grid20_0.append(Point(760.0,240.0))
+grid20_0.append(Point(800.0,240.0))
+grid20_0.append(Point(800.0,280.0))
+grid20_0.append(Point(760.0,280.0))
+b20.append(PLine(grid20_0))
+grid20_1 = []
+grid20_1.append(Point(760.0,320.0))
+grid20_1.append(Point(760.0,280.0))
+grid20_1.append(Point(800.0,280.0))
+grid20_1.append(Point(800.0,320.0))
+grid20_1.append(Point(760.0,320.0))
+b20.append(PLine(grid20_1))
+grid20_2 = []
+grid20_2.append(Point(760.0,360.0))
+grid20_2.append(Point(760.0,320.0))
+grid20_2.append(Point(800.0,320.0))
+grid20_2.append(Point(800.0,360.0))
+grid20_2.append(Point(760.0,360.0))
+b20.append(PLine(grid20_2))
+grid20_3 = []
+grid20_3.append(Point(760.0,400.0))
+grid20_3.append(Point(760.0,360.0))
+grid20_3.append(Point(800.0,360.0))
+grid20_3.append(Point(800.0,400.0))
+grid20_3.append(Point(760.0,400.0))
+b20.append(PLine(grid20_3))
+grid20_4 = []
+grid20_4.append(Point(760.0,440.0))
+grid20_4.append(Point(760.0,400.0))
+grid20_4.append(Point(800.0,400.0))
+grid20_4.append(Point(800.0,440.0))
+grid20_4.append(Point(760.0,440.0))
+b20.append(PLine(grid20_4))
+grid20_5 = []
+grid20_5.append(Point(760.0,480.0))
+grid20_5.append(Point(760.0,440.0))
+grid20_5.append(Point(800.0,440.0))
+grid20_5.append(Point(800.0,480.0))
+grid20_5.append(Point(760.0,480.0))
+b20.append(PLine(grid20_5))
+lstbd.append(b20)
+
+
+
+
+
+
+hs.append(10)
+b21 = []
+grid21_0 = []
+grid21_0.append(Point(760.0,520.0))
+grid21_0.append(Point(760.0,480.0))
+grid21_0.append(Point(800.0,480.0))
+grid21_0.append(Point(800.0,520.0))
+grid21_0.append(Point(760.0,520.0))
+b21.append(PLine(grid21_0))
+grid21_1 = []
+grid21_1.append(Point(760.0,560.0))
+grid21_1.append(Point(760.0,520.0))
+grid21_1.append(Point(800.0,520.0))
+grid21_1.append(Point(800.0,560.0))
+grid21_1.append(Point(760.0,560.0))
+b21.append(PLine(grid21_1))
+grid21_2 = []
+grid21_2.append(Point(720.0,560.0))
+grid21_2.append(Point(720.0,520.0))
+grid21_2.append(Point(760.0,520.0))
+grid21_2.append(Point(760.0,560.0))
+grid21_2.append(Point(720.0,560.0))
+b21.append(PLine(grid21_2))
+grid21_3 = []
+grid21_3.append(Point(720.0,520.0))
+grid21_3.append(Point(720.0,480.0))
+grid21_3.append(Point(760.0,480.0))
+grid21_3.append(Point(760.0,520.0))
+grid21_3.append(Point(720.0,520.0))
+b21.append(PLine(grid21_3))
+grid21_4 = []
+grid21_4.append(Point(720.0,480.0))
+grid21_4.append(Point(720.0,440.0))
+grid21_4.append(Point(760.0,440.0))
+grid21_4.append(Point(760.0,480.0))
+grid21_4.append(Point(720.0,480.0))
+b21.append(PLine(grid21_4))
+grid21_5 = []
+grid21_5.append(Point(720.0,440.0))
+grid21_5.append(Point(720.0,400.0))
+grid21_5.append(Point(760.0,400.0))
+grid21_5.append(Point(760.0,440.0))
+grid21_5.append(Point(720.0,440.0))
+b21.append(PLine(grid21_5))
+lstbd.append(b21)
+
+
+
+
+
+
+hs.append(10)
+b22 = []
+grid22_0 = []
+grid22_0.append(Point(720.0,400.0))
+grid22_0.append(Point(720.0,360.0))
+grid22_0.append(Point(760.0,360.0))
+grid22_0.append(Point(760.0,400.0))
+grid22_0.append(Point(720.0,400.0))
+b22.append(PLine(grid22_0))
+grid22_1 = []
+grid22_1.append(Point(720.0,360.0))
+grid22_1.append(Point(720.0,320.0))
+grid22_1.append(Point(760.0,320.0))
+grid22_1.append(Point(760.0,360.0))
+grid22_1.append(Point(720.0,360.0))
+b22.append(PLine(grid22_1))
+grid22_2 = []
+grid22_2.append(Point(720.0,320.0))
+grid22_2.append(Point(720.0,280.0))
+grid22_2.append(Point(760.0,280.0))
+grid22_2.append(Point(760.0,320.0))
+grid22_2.append(Point(720.0,320.0))
+b22.append(PLine(grid22_2))
+grid22_3 = []
+grid22_3.append(Point(720.0,280.0))
+grid22_3.append(Point(720.0,240.0))
+grid22_3.append(Point(760.0,240.0))
+grid22_3.append(Point(760.0,280.0))
+grid22_3.append(Point(720.0,280.0))
+b22.append(PLine(grid22_3))
+grid22_4 = []
+grid22_4.append(Point(720.0,240.0))
+grid22_4.append(Point(720.0,200.0))
+grid22_4.append(Point(760.0,200.0))
+grid22_4.append(Point(760.0,240.0))
+grid22_4.append(Point(720.0,240.0))
+b22.append(PLine(grid22_4))
+grid22_5 = []
+grid22_5.append(Point(680.0,240.0))
+grid22_5.append(Point(680.0,200.0))
+grid22_5.append(Point(720.0,200.0))
+grid22_5.append(Point(720.0,240.0))
+grid22_5.append(Point(680.0,240.0))
+b22.append(PLine(grid22_5))
+lstbd.append(b22)
+
+
+
+
+
+
+hs.append(10)
+b23 = []
+grid23_0 = []
+grid23_0.append(Point(680.0,280.0))
+grid23_0.append(Point(680.0,240.0))
+grid23_0.append(Point(720.0,240.0))
+grid23_0.append(Point(720.0,280.0))
+grid23_0.append(Point(680.0,280.0))
+b23.append(PLine(grid23_0))
+grid23_1 = []
+grid23_1.append(Point(680.0,320.0))
+grid23_1.append(Point(680.0,280.0))
+grid23_1.append(Point(720.0,280.0))
+grid23_1.append(Point(720.0,320.0))
+grid23_1.append(Point(680.0,320.0))
+b23.append(PLine(grid23_1))
+grid23_2 = []
+grid23_2.append(Point(680.0,360.0))
+grid23_2.append(Point(680.0,320.0))
+grid23_2.append(Point(720.0,320.0))
+grid23_2.append(Point(720.0,360.0))
+grid23_2.append(Point(680.0,360.0))
+b23.append(PLine(grid23_2))
+grid23_3 = []
+grid23_3.append(Point(680.0,400.0))
+grid23_3.append(Point(680.0,360.0))
+grid23_3.append(Point(720.0,360.0))
+grid23_3.append(Point(720.0,400.0))
+grid23_3.append(Point(680.0,400.0))
+b23.append(PLine(grid23_3))
+grid23_4 = []
+grid23_4.append(Point(680.0,440.0))
+grid23_4.append(Point(680.0,400.0))
+grid23_4.append(Point(720.0,400.0))
+grid23_4.append(Point(720.0,440.0))
+grid23_4.append(Point(680.0,440.0))
+b23.append(PLine(grid23_4))
+grid23_5 = []
+grid23_5.append(Point(680.0,480.0))
+grid23_5.append(Point(680.0,440.0))
+grid23_5.append(Point(720.0,440.0))
+grid23_5.append(Point(720.0,480.0))
+grid23_5.append(Point(680.0,480.0))
+b23.append(PLine(grid23_5))
+lstbd.append(b23)
+
+
+
+
+
+
+hs.append(20)
+b24 = []
+grid24_0 = []
+grid24_0.append(Point(680.0,520.0))
+grid24_0.append(Point(680.0,480.0))
+grid24_0.append(Point(720.0,480.0))
+grid24_0.append(Point(720.0,520.0))
+grid24_0.append(Point(680.0,520.0))
+b24.append(PLine(grid24_0))
+grid24_1 = []
+grid24_1.append(Point(680.0,560.0))
+grid24_1.append(Point(680.0,520.0))
+grid24_1.append(Point(720.0,520.0))
+grid24_1.append(Point(720.0,560.0))
+grid24_1.append(Point(680.0,560.0))
+b24.append(PLine(grid24_1))
+grid24_2 = []
+grid24_2.append(Point(640.0,560.0))
+grid24_2.append(Point(640.0,520.0))
+grid24_2.append(Point(680.0,520.0))
+grid24_2.append(Point(680.0,560.0))
+grid24_2.append(Point(640.0,560.0))
+b24.append(PLine(grid24_2))
+grid24_3 = []
+grid24_3.append(Point(600.0,560.0))
+grid24_3.append(Point(600.0,520.0))
+grid24_3.append(Point(640.0,520.0))
+grid24_3.append(Point(640.0,560.0))
+grid24_3.append(Point(600.0,560.0))
+b24.append(PLine(grid24_3))
+lstbd.append(b24)
+
+
+
+
+
+
+hs.append(10)
+b25 = []
+grid25_0 = []
+grid25_0.append(Point(640.0,520.0))
+grid25_0.append(Point(640.0,480.0))
+grid25_0.append(Point(680.0,480.0))
+grid25_0.append(Point(680.0,520.0))
+grid25_0.append(Point(640.0,520.0))
+b25.append(PLine(grid25_0))
+grid25_1 = []
+grid25_1.append(Point(640.0,480.0))
+grid25_1.append(Point(640.0,440.0))
+grid25_1.append(Point(680.0,440.0))
+grid25_1.append(Point(680.0,480.0))
+grid25_1.append(Point(640.0,480.0))
+b25.append(PLine(grid25_1))
+grid25_2 = []
+grid25_2.append(Point(640.0,440.0))
+grid25_2.append(Point(640.0,400.0))
+grid25_2.append(Point(680.0,400.0))
+grid25_2.append(Point(680.0,440.0))
+grid25_2.append(Point(640.0,440.0))
+b25.append(PLine(grid25_2))
+grid25_3 = []
+grid25_3.append(Point(640.0,400.0))
+grid25_3.append(Point(640.0,360.0))
+grid25_3.append(Point(680.0,360.0))
+grid25_3.append(Point(680.0,400.0))
+grid25_3.append(Point(640.0,400.0))
+b25.append(PLine(grid25_3))
+grid25_4 = []
+grid25_4.append(Point(640.0,360.0))
+grid25_4.append(Point(640.0,320.0))
+grid25_4.append(Point(680.0,320.0))
+grid25_4.append(Point(680.0,360.0))
+grid25_4.append(Point(640.0,360.0))
+b25.append(PLine(grid25_4))
+grid25_5 = []
+grid25_5.append(Point(640.0,320.0))
+grid25_5.append(Point(640.0,280.0))
+grid25_5.append(Point(680.0,280.0))
+grid25_5.append(Point(680.0,320.0))
+grid25_5.append(Point(640.0,320.0))
+b25.append(PLine(grid25_5))
+lstbd.append(b25)
+
+
+
+
+
+
+hs.append(20)
+b26 = []
+grid26_0 = []
+grid26_0.append(Point(640.0,280.0))
+grid26_0.append(Point(640.0,240.0))
+grid26_0.append(Point(680.0,240.0))
+grid26_0.append(Point(680.0,280.0))
+grid26_0.append(Point(640.0,280.0))
+b26.append(PLine(grid26_0))
+grid26_1 = []
+grid26_1.append(Point(640.0,240.0))
+grid26_1.append(Point(640.0,200.0))
+grid26_1.append(Point(680.0,200.0))
+grid26_1.append(Point(680.0,240.0))
+grid26_1.append(Point(640.0,240.0))
+b26.append(PLine(grid26_1))
+grid26_2 = []
+grid26_2.append(Point(600.0,240.0))
+grid26_2.append(Point(600.0,200.0))
+grid26_2.append(Point(640.0,200.0))
+grid26_2.append(Point(640.0,240.0))
+grid26_2.append(Point(600.0,240.0))
+b26.append(PLine(grid26_2))
+grid26_3 = []
+grid26_3.append(Point(600.0,200.0))
+grid26_3.append(Point(600.0,160.0))
+grid26_3.append(Point(640.0,160.0))
+grid26_3.append(Point(640.0,200.0))
+grid26_3.append(Point(600.0,200.0))
+b26.append(PLine(grid26_3))
+grid26_4 = []
+grid26_4.append(Point(600.0,160.0))
+grid26_4.append(Point(600.0,120.0))
+grid26_4.append(Point(640.0,120.0))
+grid26_4.append(Point(640.0,160.0))
+grid26_4.append(Point(600.0,160.0))
+b26.append(PLine(grid26_4))
+grid26_5 = []
+grid26_5.append(Point(600.0,280.0))
+grid26_5.append(Point(600.0,240.0))
+grid26_5.append(Point(640.0,240.0))
+grid26_5.append(Point(640.0,280.0))
+grid26_5.append(Point(600.0,280.0))
+b26.append(PLine(grid26_5))
+lstbd.append(b26)
+
+
+
+
+
+
+hs.append(20)
+b27 = []
+grid27_0 = []
+grid27_0.append(Point(600.0,320.0))
+grid27_0.append(Point(600.0,280.0))
+grid27_0.append(Point(640.0,280.0))
+grid27_0.append(Point(640.0,320.0))
+grid27_0.append(Point(600.0,320.0))
+b27.append(PLine(grid27_0))
+grid27_1 = []
+grid27_1.append(Point(600.0,360.0))
+grid27_1.append(Point(600.0,320.0))
+grid27_1.append(Point(640.0,320.0))
+grid27_1.append(Point(640.0,360.0))
+grid27_1.append(Point(600.0,360.0))
+b27.append(PLine(grid27_1))
+grid27_2 = []
+grid27_2.append(Point(600.0,400.0))
+grid27_2.append(Point(600.0,360.0))
+grid27_2.append(Point(640.0,360.0))
+grid27_2.append(Point(640.0,400.0))
+grid27_2.append(Point(600.0,400.0))
+b27.append(PLine(grid27_2))
+grid27_3 = []
+grid27_3.append(Point(600.0,440.0))
+grid27_3.append(Point(600.0,400.0))
+grid27_3.append(Point(640.0,400.0))
+grid27_3.append(Point(640.0,440.0))
+grid27_3.append(Point(600.0,440.0))
+b27.append(PLine(grid27_3))
+grid27_4 = []
+grid27_4.append(Point(600.0,480.0))
+grid27_4.append(Point(600.0,440.0))
+grid27_4.append(Point(640.0,440.0))
+grid27_4.append(Point(640.0,480.0))
+grid27_4.append(Point(600.0,480.0))
+b27.append(PLine(grid27_4))
+grid27_5 = []
+grid27_5.append(Point(600.0,520.0))
+grid27_5.append(Point(600.0,480.0))
+grid27_5.append(Point(640.0,480.0))
+grid27_5.append(Point(640.0,520.0))
+grid27_5.append(Point(600.0,520.0))
+b27.append(PLine(grid27_5))
+lstbd.append(b27)
+
+
+
+
+
+
+hs.append(20)
+b28 = []
+grid28_0 = []
+grid28_0.append(Point(560.0,560.0))
+grid28_0.append(Point(560.0,520.0))
+grid28_0.append(Point(600.0,520.0))
+grid28_0.append(Point(600.0,560.0))
+grid28_0.append(Point(560.0,560.0))
+b28.append(PLine(grid28_0))
+grid28_1 = []
+grid28_1.append(Point(560.0,520.0))
+grid28_1.append(Point(560.0,480.0))
+grid28_1.append(Point(600.0,480.0))
+grid28_1.append(Point(600.0,520.0))
+grid28_1.append(Point(560.0,520.0))
+b28.append(PLine(grid28_1))
+grid28_2 = []
+grid28_2.append(Point(560.0,480.0))
+grid28_2.append(Point(560.0,440.0))
+grid28_2.append(Point(600.0,440.0))
+grid28_2.append(Point(600.0,480.0))
+grid28_2.append(Point(560.0,480.0))
+b28.append(PLine(grid28_2))
+lstbd.append(b28)
+
+
+
+
+
+
+hs.append(20)
+b29 = []
+grid29_0 = []
+grid29_0.append(Point(560.0,440.0))
+grid29_0.append(Point(560.0,400.0))
+grid29_0.append(Point(600.0,400.0))
+grid29_0.append(Point(600.0,440.0))
+grid29_0.append(Point(560.0,440.0))
+b29.append(PLine(grid29_0))
+grid29_1 = []
+grid29_1.append(Point(560.0,400.0))
+grid29_1.append(Point(560.0,360.0))
+grid29_1.append(Point(600.0,360.0))
+grid29_1.append(Point(600.0,400.0))
+grid29_1.append(Point(560.0,400.0))
+b29.append(PLine(grid29_1))
+grid29_2 = []
+grid29_2.append(Point(560.0,360.0))
+grid29_2.append(Point(560.0,320.0))
+grid29_2.append(Point(600.0,320.0))
+grid29_2.append(Point(600.0,360.0))
+grid29_2.append(Point(560.0,360.0))
+b29.append(PLine(grid29_2))
+grid29_3 = []
+grid29_3.append(Point(560.0,320.0))
+grid29_3.append(Point(560.0,280.0))
+grid29_3.append(Point(600.0,280.0))
+grid29_3.append(Point(600.0,320.0))
+grid29_3.append(Point(560.0,320.0))
+b29.append(PLine(grid29_3))
+lstbd.append(b29)
+
+
+
+
+
+
+hs.append(30)
+b30 = []
+grid30_0 = []
+grid30_0.append(Point(560.0,280.0))
+grid30_0.append(Point(560.0,240.0))
+grid30_0.append(Point(600.0,240.0))
+grid30_0.append(Point(600.0,280.0))
+grid30_0.append(Point(560.0,280.0))
+b30.append(PLine(grid30_0))
+grid30_1 = []
+grid30_1.append(Point(560.0,240.0))
+grid30_1.append(Point(560.0,200.0))
+grid30_1.append(Point(600.0,200.0))
+grid30_1.append(Point(600.0,240.0))
+grid30_1.append(Point(560.0,240.0))
+b30.append(PLine(grid30_1))
+grid30_2 = []
+grid30_2.append(Point(560.0,200.0))
+grid30_2.append(Point(560.0,160.0))
+grid30_2.append(Point(600.0,160.0))
+grid30_2.append(Point(600.0,200.0))
+grid30_2.append(Point(560.0,200.0))
+b30.append(PLine(grid30_2))
+grid30_3 = []
+grid30_3.append(Point(560.0,160.0))
+grid30_3.append(Point(560.0,120.0))
+grid30_3.append(Point(600.0,120.0))
+grid30_3.append(Point(600.0,160.0))
+grid30_3.append(Point(560.0,160.0))
+b30.append(PLine(grid30_3))
+grid30_4 = []
+grid30_4.append(Point(560.0,120.0))
+grid30_4.append(Point(560.0,80.0))
+grid30_4.append(Point(600.0,80.0))
+grid30_4.append(Point(600.0,120.0))
+grid30_4.append(Point(560.0,120.0))
+b30.append(PLine(grid30_4))
+lstbd.append(b30)
+
+
+
+
+
+
+hs.append(20)
+b31 = []
+grid31_0 = []
+grid31_0.append(Point(520.0,80.0))
+grid31_0.append(Point(520.0,40.0))
+grid31_0.append(Point(560.0,40.0))
+grid31_0.append(Point(560.0,80.0))
+grid31_0.append(Point(520.0,80.0))
+b31.append(PLine(grid31_0))
+grid31_1 = []
+grid31_1.append(Point(520.0,120.0))
+grid31_1.append(Point(520.0,80.0))
+grid31_1.append(Point(560.0,80.0))
+grid31_1.append(Point(560.0,120.0))
+grid31_1.append(Point(520.0,120.0))
+b31.append(PLine(grid31_1))
+grid31_2 = []
+grid31_2.append(Point(520.0,160.0))
+grid31_2.append(Point(520.0,120.0))
+grid31_2.append(Point(560.0,120.0))
+grid31_2.append(Point(560.0,160.0))
+grid31_2.append(Point(520.0,160.0))
+b31.append(PLine(grid31_2))
+grid31_3 = []
+grid31_3.append(Point(520.0,200.0))
+grid31_3.append(Point(520.0,160.0))
+grid31_3.append(Point(560.0,160.0))
+grid31_3.append(Point(560.0,200.0))
+grid31_3.append(Point(520.0,200.0))
+b31.append(PLine(grid31_3))
+grid31_4 = []
+grid31_4.append(Point(520.0,240.0))
+grid31_4.append(Point(520.0,200.0))
+grid31_4.append(Point(560.0,200.0))
+grid31_4.append(Point(560.0,240.0))
+grid31_4.append(Point(520.0,240.0))
+b31.append(PLine(grid31_4))
+grid31_5 = []
+grid31_5.append(Point(480.0,240.0))
+grid31_5.append(Point(480.0,200.0))
+grid31_5.append(Point(520.0,200.0))
+grid31_5.append(Point(520.0,240.0))
+grid31_5.append(Point(480.0,240.0))
+b31.append(PLine(grid31_5))
+lstbd.append(b31)
+
+
+
+
+
+
+hs.append(20)
+b32 = []
+grid32_0 = []
+grid32_0.append(Point(480.0,120.0))
+grid32_0.append(Point(480.0,80.0))
+grid32_0.append(Point(520.0,80.0))
+grid32_0.append(Point(520.0,120.0))
+grid32_0.append(Point(480.0,120.0))
+b32.append(PLine(grid32_0))
+grid32_1 = []
+grid32_1.append(Point(480.0,160.0))
+grid32_1.append(Point(480.0,120.0))
+grid32_1.append(Point(520.0,120.0))
+grid32_1.append(Point(520.0,160.0))
+grid32_1.append(Point(480.0,160.0))
+b32.append(PLine(grid32_1))
+grid32_2 = []
+grid32_2.append(Point(480.0,200.0))
+grid32_2.append(Point(480.0,160.0))
+grid32_2.append(Point(520.0,160.0))
+grid32_2.append(Point(520.0,200.0))
+grid32_2.append(Point(480.0,200.0))
+b32.append(PLine(grid32_2))
+grid32_3 = []
+grid32_3.append(Point(440.0,200.0))
+grid32_3.append(Point(440.0,160.0))
+grid32_3.append(Point(480.0,160.0))
+grid32_3.append(Point(480.0,200.0))
+grid32_3.append(Point(440.0,200.0))
+b32.append(PLine(grid32_3))
+grid32_4 = []
+grid32_4.append(Point(440.0,240.0))
+grid32_4.append(Point(440.0,200.0))
+grid32_4.append(Point(480.0,200.0))
+grid32_4.append(Point(480.0,240.0))
+grid32_4.append(Point(440.0,240.0))
+b32.append(PLine(grid32_4))
+grid32_5 = []
+grid32_5.append(Point(400.0,240.0))
+grid32_5.append(Point(400.0,200.0))
+grid32_5.append(Point(440.0,200.0))
+grid32_5.append(Point(440.0,240.0))
+grid32_5.append(Point(400.0,240.0))
+b32.append(PLine(grid32_5))
+lstbd.append(b32)
+
+
+
+
+
+
+hs.append(20)
+b33 = []
+grid33_0 = []
+grid33_0.append(Point(400.0,200.0))
+grid33_0.append(Point(400.0,160.0))
+grid33_0.append(Point(440.0,160.0))
+grid33_0.append(Point(440.0,200.0))
+grid33_0.append(Point(400.0,200.0))
+b33.append(PLine(grid33_0))
+grid33_1 = []
+grid33_1.append(Point(360.0,200.0))
+grid33_1.append(Point(360.0,160.0))
+grid33_1.append(Point(400.0,160.0))
+grid33_1.append(Point(400.0,200.0))
+grid33_1.append(Point(360.0,200.0))
+b33.append(PLine(grid33_1))
+grid33_2 = []
+grid33_2.append(Point(360.0,240.0))
+grid33_2.append(Point(360.0,200.0))
+grid33_2.append(Point(400.0,200.0))
+grid33_2.append(Point(400.0,240.0))
+grid33_2.append(Point(360.0,240.0))
+b33.append(PLine(grid33_2))
+grid33_3 = []
+grid33_3.append(Point(320.0,240.0))
+grid33_3.append(Point(320.0,200.0))
+grid33_3.append(Point(360.0,200.0))
+grid33_3.append(Point(360.0,240.0))
+grid33_3.append(Point(320.0,240.0))
+b33.append(PLine(grid33_3))
+grid33_4 = []
+grid33_4.append(Point(320.0,280.0))
+grid33_4.append(Point(320.0,240.0))
+grid33_4.append(Point(360.0,240.0))
+grid33_4.append(Point(360.0,280.0))
+grid33_4.append(Point(320.0,280.0))
+b33.append(PLine(grid33_4))
+grid33_5 = []
+grid33_5.append(Point(280.0,280.0))
+grid33_5.append(Point(280.0,240.0))
+grid33_5.append(Point(320.0,240.0))
+grid33_5.append(Point(320.0,280.0))
+grid33_5.append(Point(280.0,280.0))
+b33.append(PLine(grid33_5))
+lstbd.append(b33)
+
+
+
+
+
+
+hs.append(20)
+b34 = []
+grid34_0 = []
+grid34_0.append(Point(320.0,160.0))
+grid34_0.append(Point(320.0,120.0))
+grid34_0.append(Point(360.0,120.0))
+grid34_0.append(Point(360.0,160.0))
+grid34_0.append(Point(320.0,160.0))
+b34.append(PLine(grid34_0))
+grid34_1 = []
+grid34_1.append(Point(320.0,200.0))
+grid34_1.append(Point(320.0,160.0))
+grid34_1.append(Point(360.0,160.0))
+grid34_1.append(Point(360.0,200.0))
+grid34_1.append(Point(320.0,200.0))
+b34.append(PLine(grid34_1))
+grid34_2 = []
+grid34_2.append(Point(280.0,200.0))
+grid34_2.append(Point(280.0,160.0))
+grid34_2.append(Point(320.0,160.0))
+grid34_2.append(Point(320.0,200.0))
+grid34_2.append(Point(280.0,200.0))
+b34.append(PLine(grid34_2))
+grid34_3 = []
+grid34_3.append(Point(280.0,160.0))
+grid34_3.append(Point(280.0,120.0))
+grid34_3.append(Point(320.0,120.0))
+grid34_3.append(Point(320.0,160.0))
+grid34_3.append(Point(280.0,160.0))
+b34.append(PLine(grid34_3))
+grid34_4 = []
+grid34_4.append(Point(280.0,120.0))
+grid34_4.append(Point(280.0,80.0))
+grid34_4.append(Point(320.0,80.0))
+grid34_4.append(Point(320.0,120.0))
+grid34_4.append(Point(280.0,120.0))
+b34.append(PLine(grid34_4))
+grid34_5 = []
+grid34_5.append(Point(240.0,160.0))
+grid34_5.append(Point(240.0,120.0))
+grid34_5.append(Point(280.0,120.0))
+grid34_5.append(Point(280.0,160.0))
+grid34_5.append(Point(240.0,160.0))
+b34.append(PLine(grid34_5))
+lstbd.append(b34)
+
+
+
+
+
+
+hs.append(20)
+b35 = []
+grid35_0 = []
+grid35_0.append(Point(200.0,120.0))
+grid35_0.append(Point(200.0,80.0))
+grid35_0.append(Point(240.0,80.0))
+grid35_0.append(Point(240.0,120.0))
+grid35_0.append(Point(200.0,120.0))
+b35.append(PLine(grid35_0))
+grid35_1 = []
+grid35_1.append(Point(200.0,160.0))
+grid35_1.append(Point(200.0,120.0))
+grid35_1.append(Point(240.0,120.0))
+grid35_1.append(Point(240.0,160.0))
+grid35_1.append(Point(200.0,160.0))
+b35.append(PLine(grid35_1))
+grid35_2 = []
+grid35_2.append(Point(200.0,200.0))
+grid35_2.append(Point(200.0,160.0))
+grid35_2.append(Point(240.0,160.0))
+grid35_2.append(Point(240.0,200.0))
+grid35_2.append(Point(200.0,200.0))
+b35.append(PLine(grid35_2))
+grid35_3 = []
+grid35_3.append(Point(240.0,200.0))
+grid35_3.append(Point(240.0,160.0))
+grid35_3.append(Point(280.0,160.0))
+grid35_3.append(Point(280.0,200.0))
+grid35_3.append(Point(240.0,200.0))
+b35.append(PLine(grid35_3))
+grid35_4 = []
+grid35_4.append(Point(240.0,240.0))
+grid35_4.append(Point(240.0,200.0))
+grid35_4.append(Point(280.0,200.0))
+grid35_4.append(Point(280.0,240.0))
+grid35_4.append(Point(240.0,240.0))
+b35.append(PLine(grid35_4))
+grid35_5 = []
+grid35_5.append(Point(280.0,240.0))
+grid35_5.append(Point(280.0,200.0))
+grid35_5.append(Point(320.0,200.0))
+grid35_5.append(Point(320.0,240.0))
+grid35_5.append(Point(280.0,240.0))
+b35.append(PLine(grid35_5))
+lstbd.append(b35)
+
+
+
+
+
+
+hs.append(20)
+b36 = []
+grid36_0 = []
+grid36_0.append(Point(360.0,280.0))
+grid36_0.append(Point(360.0,240.0))
+grid36_0.append(Point(400.0,240.0))
+grid36_0.append(Point(400.0,280.0))
+grid36_0.append(Point(360.0,280.0))
+b36.append(PLine(grid36_0))
+grid36_1 = []
+grid36_1.append(Point(400.0,280.0))
+grid36_1.append(Point(400.0,240.0))
+grid36_1.append(Point(440.0,240.0))
+grid36_1.append(Point(440.0,280.0))
+grid36_1.append(Point(400.0,280.0))
+b36.append(PLine(grid36_1))
+grid36_2 = []
+grid36_2.append(Point(440.0,280.0))
+grid36_2.append(Point(440.0,240.0))
+grid36_2.append(Point(480.0,240.0))
+grid36_2.append(Point(480.0,280.0))
+grid36_2.append(Point(440.0,280.0))
+b36.append(PLine(grid36_2))
+grid36_3 = []
+grid36_3.append(Point(480.0,280.0))
+grid36_3.append(Point(480.0,240.0))
+grid36_3.append(Point(520.0,240.0))
+grid36_3.append(Point(520.0,280.0))
+grid36_3.append(Point(480.0,280.0))
+b36.append(PLine(grid36_3))
+grid36_4 = []
+grid36_4.append(Point(520.0,280.0))
+grid36_4.append(Point(520.0,240.0))
+grid36_4.append(Point(560.0,240.0))
+grid36_4.append(Point(560.0,280.0))
+grid36_4.append(Point(520.0,280.0))
+b36.append(PLine(grid36_4))
+grid36_5 = []
+grid36_5.append(Point(520.0,320.0))
+grid36_5.append(Point(520.0,280.0))
+grid36_5.append(Point(560.0,280.0))
+grid36_5.append(Point(560.0,320.0))
+grid36_5.append(Point(520.0,320.0))
+b36.append(PLine(grid36_5))
+lstbd.append(b36)
+
+
+
+
+
+
+hs.append(30)
+b37 = []
+grid37_0 = []
+grid37_0.append(Point(520.0,360.0))
+grid37_0.append(Point(520.0,320.0))
+grid37_0.append(Point(560.0,320.0))
+grid37_0.append(Point(560.0,360.0))
+grid37_0.append(Point(520.0,360.0))
+b37.append(PLine(grid37_0))
+grid37_1 = []
+grid37_1.append(Point(520.0,400.0))
+grid37_1.append(Point(520.0,360.0))
+grid37_1.append(Point(560.0,360.0))
+grid37_1.append(Point(560.0,400.0))
+grid37_1.append(Point(520.0,400.0))
+b37.append(PLine(grid37_1))
+grid37_2 = []
+grid37_2.append(Point(520.0,440.0))
+grid37_2.append(Point(520.0,400.0))
+grid37_2.append(Point(560.0,400.0))
+grid37_2.append(Point(560.0,440.0))
+grid37_2.append(Point(520.0,440.0))
+b37.append(PLine(grid37_2))
+grid37_3 = []
+grid37_3.append(Point(520.0,480.0))
+grid37_3.append(Point(520.0,440.0))
+grid37_3.append(Point(560.0,440.0))
+grid37_3.append(Point(560.0,480.0))
+grid37_3.append(Point(520.0,480.0))
+b37.append(PLine(grid37_3))
+grid37_4 = []
+grid37_4.append(Point(520.0,520.0))
+grid37_4.append(Point(520.0,480.0))
+grid37_4.append(Point(560.0,480.0))
+grid37_4.append(Point(560.0,520.0))
+grid37_4.append(Point(520.0,520.0))
+b37.append(PLine(grid37_4))
+grid37_5 = []
+grid37_5.append(Point(480.0,520.0))
+grid37_5.append(Point(480.0,480.0))
+grid37_5.append(Point(520.0,480.0))
+grid37_5.append(Point(520.0,520.0))
+grid37_5.append(Point(480.0,520.0))
+b37.append(PLine(grid37_5))
+lstbd.append(b37)
+
+
+
+
+
+
+hs.append(40)
+b38 = []
+grid38_0 = []
+grid38_0.append(Point(520.0,560.0))
+grid38_0.append(Point(520.0,520.0))
+grid38_0.append(Point(560.0,520.0))
+grid38_0.append(Point(560.0,560.0))
+grid38_0.append(Point(520.0,560.0))
+b38.append(PLine(grid38_0))
+lstbd.append(b38)
+
+
+
+
+
+
+hs.append(30)
+b39 = []
+grid39_0 = []
+grid39_0.append(Point(480.0,560.0))
+grid39_0.append(Point(480.0,520.0))
+grid39_0.append(Point(520.0,520.0))
+grid39_0.append(Point(520.0,560.0))
+grid39_0.append(Point(480.0,560.0))
+b39.append(PLine(grid39_0))
+grid39_1 = []
+grid39_1.append(Point(440.0,560.0))
+grid39_1.append(Point(440.0,520.0))
+grid39_1.append(Point(480.0,520.0))
+grid39_1.append(Point(480.0,560.0))
+grid39_1.append(Point(440.0,560.0))
+b39.append(PLine(grid39_1))
+grid39_2 = []
+grid39_2.append(Point(440.0,520.0))
+grid39_2.append(Point(440.0,480.0))
+grid39_2.append(Point(480.0,480.0))
+grid39_2.append(Point(480.0,520.0))
+grid39_2.append(Point(440.0,520.0))
+b39.append(PLine(grid39_2))
+lstbd.append(b39)
+
+
+
+
+
+
+hs.append(40)
+b40 = []
+grid40_0 = []
+grid40_0.append(Point(480.0,480.0))
+grid40_0.append(Point(480.0,440.0))
+grid40_0.append(Point(520.0,440.0))
+grid40_0.append(Point(520.0,480.0))
+grid40_0.append(Point(480.0,480.0))
+b40.append(PLine(grid40_0))
+lstbd.append(b40)
+
+
+
+
+
+
+hs.append(40)
+b41 = []
+grid41_0 = []
+grid41_0.append(Point(480.0,440.0))
+grid41_0.append(Point(480.0,400.0))
+grid41_0.append(Point(520.0,400.0))
+grid41_0.append(Point(520.0,440.0))
+grid41_0.append(Point(480.0,440.0))
+b41.append(PLine(grid41_0))
+grid41_1 = []
+grid41_1.append(Point(480.0,400.0))
+grid41_1.append(Point(480.0,360.0))
+grid41_1.append(Point(520.0,360.0))
+grid41_1.append(Point(520.0,400.0))
+grid41_1.append(Point(480.0,400.0))
+b41.append(PLine(grid41_1))
+grid41_2 = []
+grid41_2.append(Point(480.0,360.0))
+grid41_2.append(Point(480.0,320.0))
+grid41_2.append(Point(520.0,320.0))
+grid41_2.append(Point(520.0,360.0))
+grid41_2.append(Point(480.0,360.0))
+b41.append(PLine(grid41_2))
+lstbd.append(b41)
+
+
+
+
+
+
+hs.append(60)
+b42 = []
+grid42_0 = []
+grid42_0.append(Point(440.0,320.0))
+grid42_0.append(Point(440.0,280.0))
+grid42_0.append(Point(480.0,280.0))
+grid42_0.append(Point(480.0,320.0))
+grid42_0.append(Point(440.0,320.0))
+b42.append(PLine(grid42_0))
+lstbd.append(b42)
+
+
+
+
+
+
+hs.append(50)
+b43 = []
+grid43_0 = []
+grid43_0.append(Point(400.0,320.0))
+grid43_0.append(Point(400.0,280.0))
+grid43_0.append(Point(440.0,280.0))
+grid43_0.append(Point(440.0,320.0))
+grid43_0.append(Point(400.0,320.0))
+b43.append(PLine(grid43_0))
+grid43_1 = []
+grid43_1.append(Point(360.0,320.0))
+grid43_1.append(Point(360.0,280.0))
+grid43_1.append(Point(400.0,280.0))
+grid43_1.append(Point(400.0,320.0))
+grid43_1.append(Point(360.0,320.0))
+b43.append(PLine(grid43_1))
+grid43_2 = []
+grid43_2.append(Point(320.0,320.0))
+grid43_2.append(Point(320.0,280.0))
+grid43_2.append(Point(360.0,280.0))
+grid43_2.append(Point(360.0,320.0))
+grid43_2.append(Point(320.0,320.0))
+b43.append(PLine(grid43_2))
+lstbd.append(b43)
+
+
+
+
+
+
+hs.append(40)
+b44 = []
+grid44_0 = []
+grid44_0.append(Point(240.0,280.0))
+grid44_0.append(Point(240.0,240.0))
+grid44_0.append(Point(280.0,240.0))
+grid44_0.append(Point(280.0,280.0))
+grid44_0.append(Point(240.0,280.0))
+b44.append(PLine(grid44_0))
+grid44_1 = []
+grid44_1.append(Point(200.0,280.0))
+grid44_1.append(Point(200.0,240.0))
+grid44_1.append(Point(240.0,240.0))
+grid44_1.append(Point(240.0,280.0))
+grid44_1.append(Point(200.0,280.0))
+b44.append(PLine(grid44_1))
+grid44_2 = []
+grid44_2.append(Point(160.0,280.0))
+grid44_2.append(Point(160.0,240.0))
+grid44_2.append(Point(200.0,240.0))
+grid44_2.append(Point(200.0,280.0))
+grid44_2.append(Point(160.0,280.0))
+b44.append(PLine(grid44_2))
+grid44_3 = []
+grid44_3.append(Point(160.0,320.0))
+grid44_3.append(Point(160.0,280.0))
+grid44_3.append(Point(200.0,280.0))
+grid44_3.append(Point(200.0,320.0))
+grid44_3.append(Point(160.0,320.0))
+b44.append(PLine(grid44_3))
+grid44_4 = []
+grid44_4.append(Point(200.0,320.0))
+grid44_4.append(Point(200.0,280.0))
+grid44_4.append(Point(240.0,280.0))
+grid44_4.append(Point(240.0,320.0))
+grid44_4.append(Point(200.0,320.0))
+b44.append(PLine(grid44_4))
+grid44_5 = []
+grid44_5.append(Point(240.0,320.0))
+grid44_5.append(Point(240.0,280.0))
+grid44_5.append(Point(280.0,280.0))
+grid44_5.append(Point(280.0,320.0))
+grid44_5.append(Point(240.0,320.0))
+b44.append(PLine(grid44_5))
+lstbd.append(b44)
+
+
+
+
+
+
+hs.append(20)
+b45 = []
+grid45_0 = []
+grid45_0.append(Point(200.0,240.0))
+grid45_0.append(Point(200.0,200.0))
+grid45_0.append(Point(240.0,200.0))
+grid45_0.append(Point(240.0,240.0))
+grid45_0.append(Point(200.0,240.0))
+b45.append(PLine(grid45_0))
+grid45_1 = []
+grid45_1.append(Point(160.0,240.0))
+grid45_1.append(Point(160.0,200.0))
+grid45_1.append(Point(200.0,200.0))
+grid45_1.append(Point(200.0,240.0))
+grid45_1.append(Point(160.0,240.0))
+b45.append(PLine(grid45_1))
+grid45_2 = []
+grid45_2.append(Point(120.0,240.0))
+grid45_2.append(Point(120.0,200.0))
+grid45_2.append(Point(160.0,200.0))
+grid45_2.append(Point(160.0,240.0))
+grid45_2.append(Point(120.0,240.0))
+b45.append(PLine(grid45_2))
+grid45_3 = []
+grid45_3.append(Point(120.0,200.0))
+grid45_3.append(Point(120.0,160.0))
+grid45_3.append(Point(160.0,160.0))
+grid45_3.append(Point(160.0,200.0))
+grid45_3.append(Point(120.0,200.0))
+b45.append(PLine(grid45_3))
+grid45_4 = []
+grid45_4.append(Point(120.0,160.0))
+grid45_4.append(Point(120.0,120.0))
+grid45_4.append(Point(160.0,120.0))
+grid45_4.append(Point(160.0,160.0))
+grid45_4.append(Point(120.0,160.0))
+b45.append(PLine(grid45_4))
+grid45_5 = []
+grid45_5.append(Point(80.0,160.0))
+grid45_5.append(Point(80.0,120.0))
+grid45_5.append(Point(120.0,120.0))
+grid45_5.append(Point(120.0,160.0))
+grid45_5.append(Point(80.0,160.0))
+b45.append(PLine(grid45_5))
+lstbd.append(b45)
+
+
+
+
+
+
+hs.append(20)
+b46 = []
+grid46_0 = []
+grid46_0.append(Point(40.0,160.0))
+grid46_0.append(Point(40.0,120.0))
+grid46_0.append(Point(80.0,120.0))
+grid46_0.append(Point(80.0,160.0))
+grid46_0.append(Point(40.0,160.0))
+b46.append(PLine(grid46_0))
+grid46_1 = []
+grid46_1.append(Point(0.0,160.0))
+grid46_1.append(Point(0.0,120.0))
+grid46_1.append(Point(40.0,120.0))
+grid46_1.append(Point(40.0,160.0))
+grid46_1.append(Point(0.0,160.0))
+b46.append(PLine(grid46_1))
+grid46_2 = []
+grid46_2.append(Point(0.0,200.0))
+grid46_2.append(Point(0.0,160.0))
+grid46_2.append(Point(40.0,160.0))
+grid46_2.append(Point(40.0,200.0))
+grid46_2.append(Point(0.0,200.0))
+b46.append(PLine(grid46_2))
+grid46_3 = []
+grid46_3.append(Point(40.0,200.0))
+grid46_3.append(Point(40.0,160.0))
+grid46_3.append(Point(80.0,160.0))
+grid46_3.append(Point(80.0,200.0))
+grid46_3.append(Point(40.0,200.0))
+b46.append(PLine(grid46_3))
+grid46_4 = []
+grid46_4.append(Point(80.0,200.0))
+grid46_4.append(Point(80.0,160.0))
+grid46_4.append(Point(120.0,160.0))
+grid46_4.append(Point(120.0,200.0))
+grid46_4.append(Point(80.0,200.0))
+b46.append(PLine(grid46_4))
+grid46_5 = []
+grid46_5.append(Point(80.0,240.0))
+grid46_5.append(Point(80.0,200.0))
+grid46_5.append(Point(120.0,200.0))
+grid46_5.append(Point(120.0,240.0))
+grid46_5.append(Point(80.0,240.0))
+b46.append(PLine(grid46_5))
+lstbd.append(b46)
+
+
+
+
+
+
+hs.append(20)
+b47 = []
+grid47_0 = []
+grid47_0.append(Point(40.0,240.0))
+grid47_0.append(Point(40.0,200.0))
+grid47_0.append(Point(80.0,200.0))
+grid47_0.append(Point(80.0,240.0))
+grid47_0.append(Point(40.0,240.0))
+b47.append(PLine(grid47_0))
+grid47_1 = []
+grid47_1.append(Point(0.0,240.0))
+grid47_1.append(Point(0.0,200.0))
+grid47_1.append(Point(40.0,200.0))
+grid47_1.append(Point(40.0,240.0))
+grid47_1.append(Point(0.0,240.0))
+b47.append(PLine(grid47_1))
+grid47_2 = []
+grid47_2.append(Point(0.0,280.0))
+grid47_2.append(Point(0.0,240.0))
+grid47_2.append(Point(40.0,240.0))
+grid47_2.append(Point(40.0,280.0))
+grid47_2.append(Point(0.0,280.0))
+b47.append(PLine(grid47_2))
+grid47_3 = []
+grid47_3.append(Point(0.0,320.0))
+grid47_3.append(Point(0.0,280.0))
+grid47_3.append(Point(40.0,280.0))
+grid47_3.append(Point(40.0,320.0))
+grid47_3.append(Point(0.0,320.0))
+b47.append(PLine(grid47_3))
+grid47_4 = []
+grid47_4.append(Point(40.0,320.0))
+grid47_4.append(Point(40.0,280.0))
+grid47_4.append(Point(80.0,280.0))
+grid47_4.append(Point(80.0,320.0))
+grid47_4.append(Point(40.0,320.0))
+b47.append(PLine(grid47_4))
+grid47_5 = []
+grid47_5.append(Point(40.0,280.0))
+grid47_5.append(Point(40.0,240.0))
+grid47_5.append(Point(80.0,240.0))
+grid47_5.append(Point(80.0,280.0))
+grid47_5.append(Point(40.0,280.0))
+b47.append(PLine(grid47_5))
+lstbd.append(b47)
+
+
+
+
+
+
+hs.append(20)
+b48 = []
+grid48_0 = []
+grid48_0.append(Point(80.0,280.0))
+grid48_0.append(Point(80.0,240.0))
+grid48_0.append(Point(120.0,240.0))
+grid48_0.append(Point(120.0,280.0))
+grid48_0.append(Point(80.0,280.0))
+b48.append(PLine(grid48_0))
+grid48_1 = []
+grid48_1.append(Point(120.0,280.0))
+grid48_1.append(Point(120.0,240.0))
+grid48_1.append(Point(160.0,240.0))
+grid48_1.append(Point(160.0,280.0))
+grid48_1.append(Point(120.0,280.0))
+b48.append(PLine(grid48_1))
+grid48_2 = []
+grid48_2.append(Point(120.0,320.0))
+grid48_2.append(Point(120.0,280.0))
+grid48_2.append(Point(160.0,280.0))
+grid48_2.append(Point(160.0,320.0))
+grid48_2.append(Point(120.0,320.0))
+b48.append(PLine(grid48_2))
+grid48_3 = []
+grid48_3.append(Point(120.0,360.0))
+grid48_3.append(Point(120.0,320.0))
+grid48_3.append(Point(160.0,320.0))
+grid48_3.append(Point(160.0,360.0))
+grid48_3.append(Point(120.0,360.0))
+b48.append(PLine(grid48_3))
+grid48_4 = []
+grid48_4.append(Point(80.0,360.0))
+grid48_4.append(Point(80.0,320.0))
+grid48_4.append(Point(120.0,320.0))
+grid48_4.append(Point(120.0,360.0))
+grid48_4.append(Point(80.0,360.0))
+b48.append(PLine(grid48_4))
+grid48_5 = []
+grid48_5.append(Point(80.0,320.0))
+grid48_5.append(Point(80.0,280.0))
+grid48_5.append(Point(120.0,280.0))
+grid48_5.append(Point(120.0,320.0))
+grid48_5.append(Point(80.0,320.0))
+b48.append(PLine(grid48_5))
+lstbd.append(b48)
+
+
+
+
+
+
+hs.append(30)
+b49 = []
+grid49_0 = []
+grid49_0.append(Point(0.0,480.0))
+grid49_0.append(Point(0.0,440.0))
+grid49_0.append(Point(40.0,440.0))
+grid49_0.append(Point(40.0,480.0))
+grid49_0.append(Point(0.0,480.0))
+b49.append(PLine(grid49_0))
+grid49_1 = []
+grid49_1.append(Point(0.0,440.0))
+grid49_1.append(Point(0.0,400.0))
+grid49_1.append(Point(40.0,400.0))
+grid49_1.append(Point(40.0,440.0))
+grid49_1.append(Point(0.0,440.0))
+b49.append(PLine(grid49_1))
+grid49_2 = []
+grid49_2.append(Point(0.0,400.0))
+grid49_2.append(Point(0.0,360.0))
+grid49_2.append(Point(40.0,360.0))
+grid49_2.append(Point(40.0,400.0))
+grid49_2.append(Point(0.0,400.0))
+b49.append(PLine(grid49_2))
+grid49_3 = []
+grid49_3.append(Point(0.0,360.0))
+grid49_3.append(Point(0.0,320.0))
+grid49_3.append(Point(40.0,320.0))
+grid49_3.append(Point(40.0,360.0))
+grid49_3.append(Point(0.0,360.0))
+b49.append(PLine(grid49_3))
+grid49_4 = []
+grid49_4.append(Point(40.0,360.0))
+grid49_4.append(Point(40.0,320.0))
+grid49_4.append(Point(80.0,320.0))
+grid49_4.append(Point(80.0,360.0))
+grid49_4.append(Point(40.0,360.0))
+b49.append(PLine(grid49_4))
+grid49_5 = []
+grid49_5.append(Point(40.0,400.0))
+grid49_5.append(Point(40.0,360.0))
+grid49_5.append(Point(80.0,360.0))
+grid49_5.append(Point(80.0,400.0))
+grid49_5.append(Point(40.0,400.0))
+b49.append(PLine(grid49_5))
+lstbd.append(b49)
+
+
+
+
+
+
+hs.append(30)
+b50 = []
+grid50_0 = []
+grid50_0.append(Point(80.0,400.0))
+grid50_0.append(Point(80.0,360.0))
+grid50_0.append(Point(120.0,360.0))
+grid50_0.append(Point(120.0,400.0))
+grid50_0.append(Point(80.0,400.0))
+b50.append(PLine(grid50_0))
+grid50_1 = []
+grid50_1.append(Point(120.0,400.0))
+grid50_1.append(Point(120.0,360.0))
+grid50_1.append(Point(160.0,360.0))
+grid50_1.append(Point(160.0,400.0))
+grid50_1.append(Point(120.0,400.0))
+b50.append(PLine(grid50_1))
+grid50_2 = []
+grid50_2.append(Point(160.0,400.0))
+grid50_2.append(Point(160.0,360.0))
+grid50_2.append(Point(200.0,360.0))
+grid50_2.append(Point(200.0,400.0))
+grid50_2.append(Point(160.0,400.0))
+b50.append(PLine(grid50_2))
+grid50_3 = []
+grid50_3.append(Point(160.0,360.0))
+grid50_3.append(Point(160.0,320.0))
+grid50_3.append(Point(200.0,320.0))
+grid50_3.append(Point(200.0,360.0))
+grid50_3.append(Point(160.0,360.0))
+b50.append(PLine(grid50_3))
+grid50_4 = []
+grid50_4.append(Point(200.0,360.0))
+grid50_4.append(Point(200.0,320.0))
+grid50_4.append(Point(240.0,320.0))
+grid50_4.append(Point(240.0,360.0))
+grid50_4.append(Point(200.0,360.0))
+b50.append(PLine(grid50_4))
+grid50_5 = []
+grid50_5.append(Point(240.0,360.0))
+grid50_5.append(Point(240.0,320.0))
+grid50_5.append(Point(280.0,320.0))
+grid50_5.append(Point(280.0,360.0))
+grid50_5.append(Point(240.0,360.0))
+b50.append(PLine(grid50_5))
+lstbd.append(b50)
+
+
+
+
+
+
+hs.append(30)
+b51 = []
+grid51_0 = []
+grid51_0.append(Point(280.0,360.0))
+grid51_0.append(Point(280.0,320.0))
+grid51_0.append(Point(320.0,320.0))
+grid51_0.append(Point(320.0,360.0))
+grid51_0.append(Point(280.0,360.0))
+b51.append(PLine(grid51_0))
+lstbd.append(b51)
+
+
+
+
+
+
+hs.append(40)
+b52 = []
+grid52_0 = []
+grid52_0.append(Point(280.0,320.0))
+grid52_0.append(Point(280.0,280.0))
+grid52_0.append(Point(320.0,280.0))
+grid52_0.append(Point(320.0,320.0))
+grid52_0.append(Point(280.0,320.0))
+b52.append(PLine(grid52_0))
+lstbd.append(b52)
+
+
+
+
+
+
+hs.append(30)
+b53 = []
+grid53_0 = []
+grid53_0.append(Point(320.0,360.0))
+grid53_0.append(Point(320.0,320.0))
+grid53_0.append(Point(360.0,320.0))
+grid53_0.append(Point(360.0,360.0))
+grid53_0.append(Point(320.0,360.0))
+b53.append(PLine(grid53_0))
+grid53_1 = []
+grid53_1.append(Point(360.0,360.0))
+grid53_1.append(Point(360.0,320.0))
+grid53_1.append(Point(400.0,320.0))
+grid53_1.append(Point(400.0,360.0))
+grid53_1.append(Point(360.0,360.0))
+b53.append(PLine(grid53_1))
+lstbd.append(b53)
+
+
+
+
+
+
+hs.append(50)
+b54 = []
+grid54_0 = []
+grid54_0.append(Point(480.0,320.0))
+grid54_0.append(Point(480.0,280.0))
+grid54_0.append(Point(520.0,280.0))
+grid54_0.append(Point(520.0,320.0))
+grid54_0.append(Point(480.0,320.0))
+b54.append(PLine(grid54_0))
+lstbd.append(b54)
+
+
+
+
+
+
+hs.append(40)
+b55 = []
+grid55_0 = []
+grid55_0.append(Point(440.0,360.0))
+grid55_0.append(Point(440.0,320.0))
+grid55_0.append(Point(480.0,320.0))
+grid55_0.append(Point(480.0,360.0))
+grid55_0.append(Point(440.0,360.0))
+b55.append(PLine(grid55_0))
+lstbd.append(b55)
+
+
+
+
+
+
+hs.append(80)
+b56 = []
+grid56_0 = []
+grid56_0.append(Point(400.0,360.0))
+grid56_0.append(Point(400.0,320.0))
+grid56_0.append(Point(440.0,320.0))
+grid56_0.append(Point(440.0,360.0))
+grid56_0.append(Point(400.0,360.0))
+b56.append(PLine(grid56_0))
+lstbd.append(b56)
+
+
+
+
+
+
+hs.append(60)
+b57 = []
+grid57_0 = []
+grid57_0.append(Point(440.0,400.0))
+grid57_0.append(Point(440.0,360.0))
+grid57_0.append(Point(480.0,360.0))
+grid57_0.append(Point(480.0,400.0))
+grid57_0.append(Point(440.0,400.0))
+b57.append(PLine(grid57_0))
+grid57_1 = []
+grid57_1.append(Point(400.0,400.0))
+grid57_1.append(Point(400.0,360.0))
+grid57_1.append(Point(440.0,360.0))
+grid57_1.append(Point(440.0,400.0))
+grid57_1.append(Point(400.0,400.0))
+b57.append(PLine(grid57_1))
+grid57_2 = []
+grid57_2.append(Point(400.0,440.0))
+grid57_2.append(Point(400.0,400.0))
+grid57_2.append(Point(440.0,400.0))
+grid57_2.append(Point(440.0,440.0))
+grid57_2.append(Point(400.0,440.0))
+b57.append(PLine(grid57_2))
+grid57_3 = []
+grid57_3.append(Point(360.0,440.0))
+grid57_3.append(Point(360.0,400.0))
+grid57_3.append(Point(400.0,400.0))
+grid57_3.append(Point(400.0,440.0))
+grid57_3.append(Point(360.0,440.0))
+b57.append(PLine(grid57_3))
+grid57_4 = []
+grid57_4.append(Point(360.0,480.0))
+grid57_4.append(Point(360.0,440.0))
+grid57_4.append(Point(400.0,440.0))
+grid57_4.append(Point(400.0,480.0))
+grid57_4.append(Point(360.0,480.0))
+b57.append(PLine(grid57_4))
+grid57_5 = []
+grid57_5.append(Point(360.0,520.0))
+grid57_5.append(Point(360.0,480.0))
+grid57_5.append(Point(400.0,480.0))
+grid57_5.append(Point(400.0,520.0))
+grid57_5.append(Point(360.0,520.0))
+b57.append(PLine(grid57_5))
+lstbd.append(b57)
+
+
+
+
+
+
+hs.append(90)
+b58 = []
+grid58_0 = []
+grid58_0.append(Point(440.0,440.0))
+grid58_0.append(Point(440.0,400.0))
+grid58_0.append(Point(480.0,400.0))
+grid58_0.append(Point(480.0,440.0))
+grid58_0.append(Point(440.0,440.0))
+b58.append(PLine(grid58_0))
+lstbd.append(b58)
+
+
+
+
+
+
+hs.append(80)
+b59 = []
+grid59_0 = []
+grid59_0.append(Point(440.0,480.0))
+grid59_0.append(Point(440.0,440.0))
+grid59_0.append(Point(480.0,440.0))
+grid59_0.append(Point(480.0,480.0))
+grid59_0.append(Point(440.0,480.0))
+b59.append(PLine(grid59_0))
+lstbd.append(b59)
+
+
+
+
+
+
+hs.append(60)
+b60 = []
+grid60_0 = []
+grid60_0.append(Point(400.0,480.0))
+grid60_0.append(Point(400.0,440.0))
+grid60_0.append(Point(440.0,440.0))
+grid60_0.append(Point(440.0,480.0))
+grid60_0.append(Point(400.0,480.0))
+b60.append(PLine(grid60_0))
+lstbd.append(b60)
+
+
+
+
+
+
+hs.append(80)
+b61 = []
+grid61_0 = []
+grid61_0.append(Point(400.0,520.0))
+grid61_0.append(Point(400.0,480.0))
+grid61_0.append(Point(440.0,480.0))
+grid61_0.append(Point(440.0,520.0))
+grid61_0.append(Point(400.0,520.0))
+b61.append(PLine(grid61_0))
+lstbd.append(b61)
+
+
+
+
+
+
+hs.append(70)
+b62 = []
+grid62_0 = []
+grid62_0.append(Point(400.0,560.0))
+grid62_0.append(Point(400.0,520.0))
+grid62_0.append(Point(440.0,520.0))
+grid62_0.append(Point(440.0,560.0))
+grid62_0.append(Point(400.0,560.0))
+b62.append(PLine(grid62_0))
+lstbd.append(b62)
+
+
+
+
+
+
+hs.append(50)
+b63 = []
+grid63_0 = []
+grid63_0.append(Point(360.0,560.0))
+grid63_0.append(Point(360.0,520.0))
+grid63_0.append(Point(400.0,520.0))
+grid63_0.append(Point(400.0,560.0))
+grid63_0.append(Point(360.0,560.0))
+b63.append(PLine(grid63_0))
+lstbd.append(b63)
+
+
+
+
+
+
+hs.append(70)
+b64 = []
+grid64_0 = []
+grid64_0.append(Point(320.0,560.0))
+grid64_0.append(Point(320.0,520.0))
+grid64_0.append(Point(360.0,520.0))
+grid64_0.append(Point(360.0,560.0))
+grid64_0.append(Point(320.0,560.0))
+b64.append(PLine(grid64_0))
+grid64_1 = []
+grid64_1.append(Point(280.0,560.0))
+grid64_1.append(Point(280.0,520.0))
+grid64_1.append(Point(320.0,520.0))
+grid64_1.append(Point(320.0,560.0))
+grid64_1.append(Point(280.0,560.0))
+b64.append(PLine(grid64_1))
+grid64_2 = []
+grid64_2.append(Point(240.0,560.0))
+grid64_2.append(Point(240.0,520.0))
+grid64_2.append(Point(280.0,520.0))
+grid64_2.append(Point(280.0,560.0))
+grid64_2.append(Point(240.0,560.0))
+b64.append(PLine(grid64_2))
+lstbd.append(b64)
+
+
+
+
+
+
+hs.append(80)
+b65 = []
+grid65_0 = []
+grid65_0.append(Point(200.0,560.0))
+grid65_0.append(Point(200.0,520.0))
+grid65_0.append(Point(240.0,520.0))
+grid65_0.append(Point(240.0,560.0))
+grid65_0.append(Point(200.0,560.0))
+b65.append(PLine(grid65_0))
+grid65_1 = []
+grid65_1.append(Point(160.0,560.0))
+grid65_1.append(Point(160.0,520.0))
+grid65_1.append(Point(200.0,520.0))
+grid65_1.append(Point(200.0,560.0))
+grid65_1.append(Point(160.0,560.0))
+b65.append(PLine(grid65_1))
+grid65_2 = []
+grid65_2.append(Point(120.0,560.0))
+grid65_2.append(Point(120.0,520.0))
+grid65_2.append(Point(160.0,520.0))
+grid65_2.append(Point(160.0,560.0))
+grid65_2.append(Point(120.0,560.0))
+b65.append(PLine(grid65_2))
+grid65_3 = []
+grid65_3.append(Point(80.0,560.0))
+grid65_3.append(Point(80.0,520.0))
+grid65_3.append(Point(120.0,520.0))
+grid65_3.append(Point(120.0,560.0))
+grid65_3.append(Point(80.0,560.0))
+b65.append(PLine(grid65_3))
+lstbd.append(b65)
+
+
+
+
+
+
+hs.append(90)
+b66 = []
+grid66_0 = []
+grid66_0.append(Point(40.0,560.0))
+grid66_0.append(Point(40.0,520.0))
+grid66_0.append(Point(80.0,520.0))
+grid66_0.append(Point(80.0,560.0))
+grid66_0.append(Point(40.0,560.0))
+b66.append(PLine(grid66_0))
+lstbd.append(b66)
+
+
+
+
+
+
+hs.append(70)
+b67 = []
+grid67_0 = []
+grid67_0.append(Point(0.0,560.0))
+grid67_0.append(Point(0.0,520.0))
+grid67_0.append(Point(40.0,520.0))
+grid67_0.append(Point(40.0,560.0))
+grid67_0.append(Point(0.0,560.0))
+b67.append(PLine(grid67_0))
+lstbd.append(b67)
+
+
+
+
+
+
+hs.append(60)
+b68 = []
+grid68_0 = []
+grid68_0.append(Point(0.0,520.0))
+grid68_0.append(Point(0.0,480.0))
+grid68_0.append(Point(40.0,480.0))
+grid68_0.append(Point(40.0,520.0))
+grid68_0.append(Point(0.0,520.0))
+b68.append(PLine(grid68_0))
+lstbd.append(b68)
+
+
+
+
+
+
+hs.append(50)
+b69 = []
+grid69_0 = []
+grid69_0.append(Point(40.0,520.0))
+grid69_0.append(Point(40.0,480.0))
+grid69_0.append(Point(80.0,480.0))
+grid69_0.append(Point(80.0,520.0))
+grid69_0.append(Point(40.0,520.0))
+b69.append(PLine(grid69_0))
+lstbd.append(b69)
+
+
+
+
+
+
+hs.append(60)
+b70 = []
+grid70_0 = []
+grid70_0.append(Point(40.0,480.0))
+grid70_0.append(Point(40.0,440.0))
+grid70_0.append(Point(80.0,440.0))
+grid70_0.append(Point(80.0,480.0))
+grid70_0.append(Point(40.0,480.0))
+b70.append(PLine(grid70_0))
+lstbd.append(b70)
+
+
+
+
+
+
+hs.append(50)
+b71 = []
+grid71_0 = []
+grid71_0.append(Point(40.0,440.0))
+grid71_0.append(Point(40.0,400.0))
+grid71_0.append(Point(80.0,400.0))
+grid71_0.append(Point(80.0,440.0))
+grid71_0.append(Point(40.0,440.0))
+b71.append(PLine(grid71_0))
+grid71_1 = []
+grid71_1.append(Point(80.0,440.0))
+grid71_1.append(Point(80.0,400.0))
+grid71_1.append(Point(120.0,400.0))
+grid71_1.append(Point(120.0,440.0))
+grid71_1.append(Point(80.0,440.0))
+b71.append(PLine(grid71_1))
+grid71_2 = []
+grid71_2.append(Point(120.0,440.0))
+grid71_2.append(Point(120.0,400.0))
+grid71_2.append(Point(160.0,400.0))
+grid71_2.append(Point(160.0,440.0))
+grid71_2.append(Point(120.0,440.0))
+b71.append(PLine(grid71_2))
+lstbd.append(b71)
+
+
+
+
+
+
+hs.append(40)
+b72 = []
+grid72_0 = []
+grid72_0.append(Point(80.0,480.0))
+grid72_0.append(Point(80.0,440.0))
+grid72_0.append(Point(120.0,440.0))
+grid72_0.append(Point(120.0,480.0))
+grid72_0.append(Point(80.0,480.0))
+b72.append(PLine(grid72_0))
+grid72_1 = []
+grid72_1.append(Point(120.0,480.0))
+grid72_1.append(Point(120.0,440.0))
+grid72_1.append(Point(160.0,440.0))
+grid72_1.append(Point(160.0,480.0))
+grid72_1.append(Point(120.0,480.0))
+b72.append(PLine(grid72_1))
+lstbd.append(b72)
+
+
+
+
+
+
+hs.append(60)
+b73 = []
+grid73_0 = []
+grid73_0.append(Point(160.0,480.0))
+grid73_0.append(Point(160.0,440.0))
+grid73_0.append(Point(200.0,440.0))
+grid73_0.append(Point(200.0,480.0))
+grid73_0.append(Point(160.0,480.0))
+b73.append(PLine(grid73_0))
+grid73_1 = []
+grid73_1.append(Point(200.0,480.0))
+grid73_1.append(Point(200.0,440.0))
+grid73_1.append(Point(240.0,440.0))
+grid73_1.append(Point(240.0,480.0))
+grid73_1.append(Point(200.0,480.0))
+b73.append(PLine(grid73_1))
+lstbd.append(b73)
+
+
+
+
+
+
+hs.append(70)
+b74 = []
+grid74_0 = []
+grid74_0.append(Point(240.0,480.0))
+grid74_0.append(Point(240.0,440.0))
+grid74_0.append(Point(280.0,440.0))
+grid74_0.append(Point(280.0,480.0))
+grid74_0.append(Point(240.0,480.0))
+b74.append(PLine(grid74_0))
+lstbd.append(b74)
+
+
+
+
+
+
+hs.append(80)
+b75 = []
+grid75_0 = []
+grid75_0.append(Point(280.0,480.0))
+grid75_0.append(Point(280.0,440.0))
+grid75_0.append(Point(320.0,440.0))
+grid75_0.append(Point(320.0,480.0))
+grid75_0.append(Point(280.0,480.0))
+b75.append(PLine(grid75_0))
+grid75_1 = []
+grid75_1.append(Point(320.0,480.0))
+grid75_1.append(Point(320.0,440.0))
+grid75_1.append(Point(360.0,440.0))
+grid75_1.append(Point(360.0,480.0))
+grid75_1.append(Point(320.0,480.0))
+b75.append(PLine(grid75_1))
+grid75_2 = []
+grid75_2.append(Point(320.0,520.0))
+grid75_2.append(Point(320.0,480.0))
+grid75_2.append(Point(360.0,480.0))
+grid75_2.append(Point(360.0,520.0))
+grid75_2.append(Point(320.0,520.0))
+b75.append(PLine(grid75_2))
+grid75_3 = []
+grid75_3.append(Point(280.0,520.0))
+grid75_3.append(Point(280.0,480.0))
+grid75_3.append(Point(320.0,480.0))
+grid75_3.append(Point(320.0,520.0))
+grid75_3.append(Point(280.0,520.0))
+b75.append(PLine(grid75_3))
+lstbd.append(b75)
+
+
+
+
+
+
+hs.append(90)
+b76 = []
+grid76_0 = []
+grid76_0.append(Point(240.0,520.0))
+grid76_0.append(Point(240.0,480.0))
+grid76_0.append(Point(280.0,480.0))
+grid76_0.append(Point(280.0,520.0))
+grid76_0.append(Point(240.0,520.0))
+b76.append(PLine(grid76_0))
+lstbd.append(b76)
+
+
+
+
+
+
+hs.append(100)
+b77 = []
+grid77_0 = []
+grid77_0.append(Point(200.0,520.0))
+grid77_0.append(Point(200.0,480.0))
+grid77_0.append(Point(240.0,480.0))
+grid77_0.append(Point(240.0,520.0))
+grid77_0.append(Point(200.0,520.0))
+b77.append(PLine(grid77_0))
+lstbd.append(b77)
+
+
+
+
+
+
+hs.append(90)
+b78 = []
+grid78_0 = []
+grid78_0.append(Point(160.0,520.0))
+grid78_0.append(Point(160.0,480.0))
+grid78_0.append(Point(200.0,480.0))
+grid78_0.append(Point(200.0,520.0))
+grid78_0.append(Point(160.0,520.0))
+b78.append(PLine(grid78_0))
+grid78_1 = []
+grid78_1.append(Point(120.0,520.0))
+grid78_1.append(Point(120.0,480.0))
+grid78_1.append(Point(160.0,480.0))
+grid78_1.append(Point(160.0,520.0))
+grid78_1.append(Point(120.0,520.0))
+b78.append(PLine(grid78_1))
+lstbd.append(b78)
+
+
+
+
+
+
+hs.append(80)
+b79 = []
+grid79_0 = []
+grid79_0.append(Point(80.0,520.0))
+grid79_0.append(Point(80.0,480.0))
+grid79_0.append(Point(120.0,480.0))
+grid79_0.append(Point(120.0,520.0))
+grid79_0.append(Point(80.0,520.0))
+b79.append(PLine(grid79_0))
+lstbd.append(b79)
+
+
+
+
+
+
+hs.append(70)
+b80 = []
+grid80_0 = []
+grid80_0.append(Point(160.0,440.0))
+grid80_0.append(Point(160.0,400.0))
+grid80_0.append(Point(200.0,400.0))
+grid80_0.append(Point(200.0,440.0))
+grid80_0.append(Point(160.0,440.0))
+b80.append(PLine(grid80_0))
+grid80_1 = []
+grid80_1.append(Point(200.0,440.0))
+grid80_1.append(Point(200.0,400.0))
+grid80_1.append(Point(240.0,400.0))
+grid80_1.append(Point(240.0,440.0))
+grid80_1.append(Point(200.0,440.0))
+b80.append(PLine(grid80_1))
+lstbd.append(b80)
+
+
+
+
+
+
+hs.append(50)
+b81 = []
+grid81_0 = []
+grid81_0.append(Point(240.0,440.0))
+grid81_0.append(Point(240.0,400.0))
+grid81_0.append(Point(280.0,400.0))
+grid81_0.append(Point(280.0,440.0))
+grid81_0.append(Point(240.0,440.0))
+b81.append(PLine(grid81_0))
+lstbd.append(b81)
+
+
+
+
+
+
+hs.append(60)
+b82 = []
+grid82_0 = []
+grid82_0.append(Point(200.0,400.0))
+grid82_0.append(Point(200.0,360.0))
+grid82_0.append(Point(240.0,360.0))
+grid82_0.append(Point(240.0,400.0))
+grid82_0.append(Point(200.0,400.0))
+b82.append(PLine(grid82_0))
+grid82_1 = []
+grid82_1.append(Point(240.0,400.0))
+grid82_1.append(Point(240.0,360.0))
+grid82_1.append(Point(280.0,360.0))
+grid82_1.append(Point(280.0,400.0))
+grid82_1.append(Point(240.0,400.0))
+b82.append(PLine(grid82_1))
+lstbd.append(b82)
+
+
+
+
+
+
+hs.append(40)
+b83 = []
+grid83_0 = []
+grid83_0.append(Point(320.0,400.0))
+grid83_0.append(Point(320.0,360.0))
+grid83_0.append(Point(360.0,360.0))
+grid83_0.append(Point(360.0,400.0))
+grid83_0.append(Point(320.0,400.0))
+b83.append(PLine(grid83_0))
+grid83_1 = []
+grid83_1.append(Point(360.0,400.0))
+grid83_1.append(Point(360.0,360.0))
+grid83_1.append(Point(400.0,360.0))
+grid83_1.append(Point(400.0,400.0))
+grid83_1.append(Point(360.0,400.0))
+b83.append(PLine(grid83_1))
+lstbd.append(b83)
+
+
+
+
+
+
+hs.append(60)
+b84 = []
+grid84_0 = []
+grid84_0.append(Point(280.0,400.0))
+grid84_0.append(Point(280.0,360.0))
+grid84_0.append(Point(320.0,360.0))
+grid84_0.append(Point(320.0,400.0))
+grid84_0.append(Point(280.0,400.0))
+b84.append(PLine(grid84_0))
+lstbd.append(b84)
+
+
+
+
+
+
+hs.append(50)
+b85 = []
+grid85_0 = []
+grid85_0.append(Point(280.0,440.0))
+grid85_0.append(Point(280.0,400.0))
+grid85_0.append(Point(320.0,400.0))
+grid85_0.append(Point(320.0,440.0))
+grid85_0.append(Point(280.0,440.0))
+b85.append(PLine(grid85_0))
+lstbd.append(b85)
+
+
+
+
+
+
+hs.append(70)
+b86 = []
+grid86_0 = []
+grid86_0.append(Point(320.0,440.0))
+grid86_0.append(Point(320.0,400.0))
+grid86_0.append(Point(360.0,400.0))
+grid86_0.append(Point(360.0,440.0))
+grid86_0.append(Point(320.0,440.0))
+b86.append(PLine(grid86_0))
+lstbd.append(b86)
+
+
+
+
+
+
+hs.append(80)
+b.put(lstbd)
+c.put(hs)

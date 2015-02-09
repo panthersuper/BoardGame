@@ -8,7 +8,7 @@ class Building extends Blos {
 
 
   Building() {
-    this.limit = 4;
+    this.limit = 5;
   }
 
 

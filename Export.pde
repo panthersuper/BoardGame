@@ -22,8 +22,8 @@ class Export {
       output.println("lstPL.append(PLine("+"pts"+i+"))");
     }
     output.println("a.put(lstPL)");
-
     output.println("lstbd = []");
+    
     output.println("hs = []");
 
     for (int i=0; i<bls.size (); i++) {
