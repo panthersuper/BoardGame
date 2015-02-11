@@ -99,13 +99,34 @@ class Blo {
     strokeWeight(1.5f);
     float rr = 5;
 
-    rect((float)(x*w), (float)(y*h), (float)w, (float)h);
-    fill(255);
+    fill(0);
     ellipse((float)l_t.x, (float)l_t.y, rr, rr);
     ellipse((float)l_b.x, (float)l_b.y, rr, rr);
     ellipse((float)r_t.x, (float)r_t.y, rr, rr);
     ellipse((float)r_b.x, (float)r_b.y, rr, rr);
     fill(255);
+    text(value, (float)(x*w+w/2-3), (float)(y*h+h/2+5));
+
+    popStyle();
+  }
+  
+    void drawFrame(int r, int g, int b) {
+    pushStyle();
+
+    stroke(r, g, b);
+    strokeWeight(3f);
+    fill(255-25*value,255-25*value,255-25*value);
+    rect((float)(x*w), (float)(y*h), (float)w, (float)h);
+    stroke(0);
+    strokeWeight(1.5f);
+    float rr = 5;
+
+    fill(0);
+    ellipse((float)l_t.x, (float)l_t.y, rr, rr);
+    ellipse((float)l_b.x, (float)l_b.y, rr, rr);
+    ellipse((float)r_t.x, (float)r_t.y, rr, rr);
+    ellipse((float)r_b.x, (float)r_b.y, rr, rr);
+    //fill(0);
     text(value, (float)(x*w+w/2-3), (float)(y*h+h/2+5));
 
     popStyle();

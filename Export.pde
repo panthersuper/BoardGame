@@ -2,11 +2,13 @@ class Export {
   PrintWriter output;
   ArrayList<PLine> pls;
   ArrayList<Building> bls;
+  ArrayList<Grassland> grs;
   String dir;
-  Export(ArrayList<PLine> pls, ArrayList<Building> bls, String dir) {
+  Export(ArrayList<PLine> pls, ArrayList<Building> bls, ArrayList<Grassland> grs, String dir) {
     this.pls = pls;
     this.bls = bls;
     this.dir = dir;
+    this.grs = grs;
   }
 
   void out() {
@@ -23,7 +25,7 @@ class Export {
     }
     output.println("a.put(lstPL)");
     output.println("lstbd = []");
-    
+    output.println("lstgr = []");
     output.println("hs = []");
 
     for (int i=0; i<bls.size (); i++) {
@@ -51,11 +53,44 @@ class Export {
       output.println("");
       output.println("");
       output.println("");
-
+      
       output.println("hs.append("+bls.get(i).gridList.get(0).value*10+")");
     }
+    
+        for (int i=0; i<grs.size (); i++) {
+      output.println("g"+i+" = []");
+      for (int j=0; j<grs.get (i).gridList.size(); j++) {
+        output.println("ggrid"+i+"_"+j+" = []");
+        Vector2d v1 = grs.get(i).gridList.get(j).l_t;
+        Vector2d v2 = grs.get(i).gridList.get(j).l_b;
+        Vector2d v3 = grs.get(i).gridList.get(j).r_b;
+        Vector2d v4 = grs.get(i).gridList.get(j).r_t;
+
+        output.println("ggrid"+i+"_"+j+".append(Point("+v1.getX()+","+ (height-v1.getY())+"))");
+        output.println("ggrid"+i+"_"+j+".append(Point("+v2.getX()+","+ (height-v2.getY())+"))");
+        output.println("ggrid"+i+"_"+j+".append(Point("+v3.getX()+","+ (height-v3.getY())+"))");
+        output.println("ggrid"+i+"_"+j+".append(Point("+v4.getX()+","+ (height-v4.getY())+"))");
+        output.println("ggrid"+i+"_"+j+".append(Point("+v1.getX()+","+ (height-v1.getY())+"))");
+
+        output.println("g"+i+".append(PLine("+"ggrid"+i+"_"+j+"))");
+      }
+      output.println("lstgr.append("+"g"+i+")");
+      output.println("");
+
+      output.println("");
+      output.println("");
+      output.println("");
+      output.println("");
+      output.println("");
+
+    }
+    
+    
+    
+    
     output.println("b.put(lstbd)");
-    output.println("c.put(hs)");
+    output.println("c.put(lstgr)");
+    output.println("d.put(hs)");
 
 
     output.flush(); // Writes the remaining data to the file

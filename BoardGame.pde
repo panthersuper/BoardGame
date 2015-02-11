@@ -6,6 +6,8 @@ Wenzhe Peng
 Grid g;
 Table table;
 int si = 40;//size for each grid
+int col;
+int row;
 
 Button NextRoad;
 Button DrawRoad;
@@ -28,8 +30,8 @@ Grassland grass;//current drawing building
 void setup() {
   smooth();
   table = loadTable("landform.csv");
-  int col = table.getColumnCount();
-  int row = table.getRowCount();
+  col = table.getColumnCount();
+  row = table.getRowCount();
 
   //println(table.getInt(0,0));
   g = new Grid(row, col, si*row, si*col);
@@ -54,7 +56,7 @@ void setup() {
   building = new Building();
   grass= new Grassland();
 
-  ex = new Export(plist, blist, "");
+  ex = new Export(plist, blist, glist, "");
 }
 
 void draw() {
@@ -71,13 +73,13 @@ void draw() {
 
   if (this.glist.size()>0) {
     for (Grassland bb : glist) {
-      bb.draw(0, 255, 0);
+      bb.drawFrame(0, 255, 0);
     }
   }
 
   if (this.blist.size()>0) {
     for (Building bb : blist) {
-      bb.draw(0, 0, 255);
+      bb.drawFrame(0, 0, 255);
     }
   }
 
@@ -217,6 +219,36 @@ void draw() {
   }
 
 
+  /*
+  *****************************************************************
+   STATS
+   ****************************************************************
+   */
+  pushStyle();
+  int bnum = 0;
+  for (Building b : blist) {
+    bnum += b.gridList.size();
+  }
+  int gnum = 0;
+  for (Grassland g : glist) {
+    gnum += g.gridList.size();
+  }
+
+  text("Building Number: "+blist.size(), si*row+30, 50);
+  text("Building Grid Number: "+bnum, si*row+30, 70);
+  text("Grass Number: "+glist.size(), si*row+30, 90);
+  text("Grass Grid Number: "+gnum, si*row+30, 110);
+
+
+  popStyle();
+
+
+
+  /*
+  *****************************************************************
+   LOOP
+   ****************************************************************
+   */
   println(building.gridList.size());
   NextRoad.iterate();
   NextBuilding.iterate();

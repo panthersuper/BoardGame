@@ -58,5 +58,11 @@ class Blos {
       b.draw(rr, gg, bb);
     }
   }
+  
+  void drawFrame(int rr, int gg, int bb) {
+    for (Blo b : this.gridList) {
+      b.drawFrame(rr, gg, bb);
+    }
+  }
 }
 
