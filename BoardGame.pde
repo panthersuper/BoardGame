@@ -50,7 +50,7 @@ void setup() {
   SAVEFILE = new Button(si*row+50, si*col-40, 130, 25, false, "SAVEFILE");
   ;
 
-  size(si*row+200, si*col);
+  size(si*row+400, si*col);
 
   pl = new PLine();
   building = new Building();
@@ -239,6 +239,27 @@ void draw() {
   text("Grass Number: "+glist.size(), si*row+30, 90);
   text("Grass Grid Number: "+gnum, si*row+30, 110);
 
+  stroke(255);
+  line(si*row+200,0,si*row+200,height);
+  
+  //rules
+  text("Road", si*row+210, 50);
+  text("Make sure each grid have a max ", si*row+210, 70);
+  text("distance of 4 to road", si*row+210, 85);
+  text("Draw it as flat as possible", si*row+210, 100);
+  text("Building", si*row+210, 130);
+  text("Consists of same height grids", si*row+210, 150);
+  text("Draw each Building next to Road", si*row+210, 165);
+  text("Can't go over Road", si*row+210, 180);
+  text("Grass", si*row+210, 210);
+  text("Consists of same height grids", si*row+210, 230);
+  text("Place Only near Building", si*row+210, 245);
+  text("Place not upon Grass", si*row+210, 260);
+  text("Goal", si*row+210, 290);
+  text("To place as much building and ", si*row+210, 310);  
+  text("grass for each move as possible", si*row+210, 325);
+
+  text("Wenzhe Peng @ Studio One", si*row+210, si*col-15);
 
   popStyle();
 
